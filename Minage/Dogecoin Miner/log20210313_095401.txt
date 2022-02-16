@@ -1,0 +1,153 @@
+2021.03.13:09:54:01.676: main Phoenix Miner 5.4c Windows/msvc - Release build
+2021.03.13:09:54:01.676: main Cmd line: -pool ethash.unmineable.com:3333 -wal DOGE:DPGGhE2b8zTLDFYyFUFVFuwhFUCHA5Fpj6.Worker1#rkd4-ls9t -pass x 
+2021.03.13:09:54:01.736: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.03.13:09:54:01.771: main No OpenCL platforms found
+2021.03.13:09:54:01.772: main Available GPUs for mining:
+2021.03.13:09:54:01.772: main GPU1: GeForce RTX 3060 Ti (pcie 43), CUDA cap. 8.6, 8 GB VRAM, 38 CUs
+2021.03.13:09:54:01.783: main NVML library initialized
+2021.03.13:09:54:01.801: main Nvidia driver version: 461.72
+2021.03.13:09:54:01.959: main Eth: the pool list contains 1 pool (1 from command-line)
+2021.03.13:09:54:01.959: main Eth: primary pool: ethash.unmineable.com:3333
+2021.03.13:09:54:01.962: main Starting GPU mining
+2021.03.13:09:54:02.084: wdog Starting watchdog thread
+2021.03.13:09:54:02.084: main Eth: Connecting to ethash pool ethash.unmineable.com:3333 (proto: EthProxy)
+2021.03.13:09:54:02.085: main GPU1: 42C 0% 19W
+GPUs power: 19.5 W
+2021.03.13:09:54:02.155: eths Eth: Connected to ethash pool ethash.unmineable.com:3333 (178.62.127.132)
+2021.03.13:09:54:02.155: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["DOGE:DPGGhE2b8zTLDFYyFUFVFuwhFUCHA5Fpj6.Worker1#rkd4-ls9t","x"]}
+
+2021.03.13:09:54:02.209: eths Eth: Received: {"id":1,"jsonrpc":"2.0","result":true}
+2021.03.13:09:54:02.209: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.13:09:54:02.244: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xb1166a403bc2d2c91b29234513dcbf395a5509597ba8a3c1e3c75bac8e36f4be","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d2d"]}
+2021.03.13:09:54:02.245: eths Eth: New job #b1166a40 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:02.246: GPU1 GPU1: Starting up... (0)
+2021.03.13:09:54:02.246: GPU1 GPU1: Generating ethash light cache for epoch #400
+2021.03.13:09:54:02.291: main Listening for CDM remote manager at port 3333 in read-only mode
+2021.03.13:09:54:04.560: GPU1 Light cache generated in 2.3 s (28.5 MB/s)
+2021.03.13:09:54:05.490: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xa0eac86937ed5b071bca9d24ca94cab1ab75cb6f9866543fbeecf104797ab15c","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d2d"]}
+2021.03.13:09:54:05.490: eths Eth: New job #a0eac869 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:06.012: GPU1 GPU1: Allocating DAG (4.14) GB; good for epoch up to #402
+2021.03.13:09:54:06.137: GPU1 GPU1: Generating DAG for epoch #400
+2021.03.13:09:54:07.246: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.03.13:09:54:07.687: GPU1 GPU1: DAG  22%
+2021.03.13:09:54:09.226: GPU1 GPU1: DAG  45%
+2021.03.13:09:54:09.452: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x31fd29509a1b4c8f4bb8c4f5648441124259b655b0896439f36a71be46c2b717","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d2d"]}
+2021.03.13:09:54:09.452: eths Eth: New job #31fd2950 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:10.797: GPU1 GPU1: DAG  69%
+2021.03.13:09:54:12.165: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.13:09:54:12.200: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x31fd29509a1b4c8f4bb8c4f5648441124259b655b0896439f36a71be46c2b717","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d2d"]}
+2021.03.13:09:54:12.332: GPU1 GPU1: DAG  92%
+2021.03.13:09:54:12.353: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.03.13:09:54:12.753: GPU1 GPU1: DAG generated in 6.6 s (638.5 MB/s)
+2021.03.13:09:54:12.763: GPU1 GPU1: Using v2 Ethash CUDA kernels (GeForce RTX 3060 Ti)
+2021.03.13:09:54:13.457: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x85368944db8e6bafbdc2972a267201181ec512dc7c87f1e3abd834ba503109b0","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d2d"]}
+2021.03.13:09:54:13.457: eths Eth: New job #85368944 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:16.594: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x0610e4be4f9e0c2db787f219d63b47d3fdea854bfa5e22014f9ac8ed8417f20e","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d2e"]}
+2021.03.13:09:54:16.594: eths Eth: New job #0610e4be from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:16.719: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xdd37ad8b9186b0fbcac6e21f2fa9ed18fdd80cc0b0fe53ae3e7b2e7314429ef5","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d2e"]}
+2021.03.13:09:54:16.719: eths Eth: New job #dd37ad8b from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:17.474: main Eth speed: 51.930 MH/s, shares: 0/0/0, time: 0:00
+2021.03.13:09:54:20.617: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x5706d73a1a0adefe1f07389fe29046dca7f7a089c9be21bcd4c7ad24cf7a0983","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d2e"]}
+2021.03.13:09:54:20.618: eths Eth: New job #5706d73a from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:22.181: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.13:09:54:22.181: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x318624c","0x862d94ed82ba247fc20d0e871b0c354e285e8d2893e650069f2afaf383137bb1"]}
+
+2021.03.13:09:54:22.219: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x5706d73a1a0adefe1f07389fe29046dca7f7a089c9be21bcd4c7ad24cf7a0983","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d2e"]}
+2021.03.13:09:54:22.219: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.03.13:09:54:22.568: main Eth speed: 51.950 MH/s, shares: 0/0/0, time: 0:00
+2021.03.13:09:54:24.589: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x388b0442d57d1a544e9a265079a332089db082b48b9c00e44427c17caf2d9add","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d2e"]}
+2021.03.13:09:54:24.589: eths Eth: New job #388b0442 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:27.649: main Eth speed: 51.954 MH/s, shares: 0/0/0, time: 0:00
+2021.03.13:09:54:28.726: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xdddd6055475684bbc09331e599e3cbcf4791c536bddc10fd954b74575c1ef871","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d2e"]}
+2021.03.13:09:54:28.726: eths Eth: New job #dddd6055 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:28.726: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x76a062e494aff020c42ba106ad632771d77d34afd4a41c36601a5b517d977616","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d2f"]}
+2021.03.13:09:54:28.726: eths Eth: New job #76a062e4 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:28.840: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd465ea0a134fc454b884ff7578b93ba5c423fa9852fa214ab5f30c0750fcd8b2","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d2f"]}
+2021.03.13:09:54:28.840: eths Eth: New job #d465ea0a from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:32.192: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.13:09:54:32.227: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd465ea0a134fc454b884ff7578b93ba5c423fa9852fa214ab5f30c0750fcd8b2","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d2f"]}
+2021.03.13:09:54:32.350: main GPU1: 58C 63% 192W
+GPUs power: 192.0 W
+2021.03.13:09:54:32.769: main Eth speed: 51.951 MH/s, shares: 0/0/0, time: 0:00
+2021.03.13:09:54:32.810: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x6bae6db8ddc7b768eaec597228672df790529c715bc646c6af8ed1919f3ed206","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d2f"]}
+2021.03.13:09:54:32.810: eths Eth: New job #6bae6db8 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:35.871: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x804eced38ae49505869fe8b0a9c525f9b27b28370733f365ed71b67a932d7150","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d30"]}
+2021.03.13:09:54:35.871: eths Eth: New job #804eced3 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:36.007: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xe24c38a31da7fa5d9599513560d4b4fe75a0b6d8302d4b8e5db13b56135ebe0c","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d30"]}
+2021.03.13:09:54:36.007: eths Eth: New job #e24c38a3 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:36.111: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x4b4b5aa9bc404a94a2260bc867921f533a9a36b308f66ce5c653f99d2e081c77","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d31"]}
+2021.03.13:09:54:36.111: eths Eth: New job #4b4b5aa9 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:36.293: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x8e0243ca14b7169680af75561042fec32b2845bd525b7a0f79447d3378b15cb3","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d31"]}
+2021.03.13:09:54:36.293: eths Eth: New job #8e0243ca from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:37.864: main Eth speed: 51.932 MH/s, shares: 0/0/0, time: 0:00
+2021.03.13:09:54:40.304: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xae97725685bb1430529a00804dc09f2f3a7ad71acb3bd0ebf3ed20ec323a5fc8","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d31"]}
+2021.03.13:09:54:40.304: eths Eth: New job #ae977256 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:42.199: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.13:09:54:42.199: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x3189479","0x862d94ed82ba247fc20d0e871b0c354e285e8d2893e650069f2afaf383137bb1"]}
+
+2021.03.13:09:54:42.236: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xae97725685bb1430529a00804dc09f2f3a7ad71acb3bd0ebf3ed20ec323a5fc8","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d31"]}
+2021.03.13:09:54:42.236: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.03.13:09:54:42.927: main Eth speed: 51.944 MH/s, shares: 0/0/0, time: 0:00
+2021.03.13:09:54:43.698: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x48dad71816db3d8f36cee21920be686c81ac294129266a40b3ce5afeb5b6822e","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d32"]}
+2021.03.13:09:54:43.698: eths Eth: New job #48dad718 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:43.915: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xe3126c6686c17025bc4b8b219a4fb53543584c26197cac5b2783bd9af5a3cfbf","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d32"]}
+2021.03.13:09:54:43.915: eths Eth: New job #e3126c66 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:45.228: GPU1 Eth: GPU1: ETH share found!
+2021.03.13:09:54:45.228: eths Eth: Send: {"id":4,"jsonrpc":"2.0","method":"eth_submitWork","params":["0x5f9c4b184f9d820a","0xe3126c6686c17025bc4b8b219a4fb53543584c26197cac5b2783bd9af5a3cfbf","0x03d534658ba9c95c0f1ae2b82e2898988a709b1c91dc930471da42a638255347"]}
+
+2021.03.13:09:54:45.228: eths Eth: Share actual difficulty: 7609 MH
+2021.03.13:09:54:45.266: eths Eth: Received: {"id":4,"jsonrpc":"2.0","result":true}
+2021.03.13:09:54:45.266: eths Eth: Share accepted in 38 ms
+2021.03.13:09:54:47.248: main  
+2021.03.13:09:54:47.248: main *** 0:00 *** 3/13 09:54 **************************************
+2021.03.13:09:54:47.249: main Eth: Mining ETH on ethash.unmineable.com:3333 for 0:00
+2021.03.13:09:54:47.249: main Eth: Accepted shares 1 (0 stales), rejected shares 0 (0 stales)
+2021.03.13:09:54:47.249: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.03.13:09:54:47.249: main Eth: Maximum difficulty of found share: 7609 MH
+2021.03.13:09:54:47.249: main Eth: Average speed (5 min): 51.944 MH/s
+2021.03.13:09:54:47.249: main  
+2021.03.13:09:54:47.783: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x1f3952f5ae162b7f1661befb033e54e5063c8bfed4d51499ccce921d3885dcf2","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d32"]}
+2021.03.13:09:54:47.784: eths Eth: New job #1f3952f5 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:48.064: main Eth speed: 51.394 MH/s, shares: 1/0/0, time: 0:00
+2021.03.13:09:54:49.424: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xffd2a5a04bd8227a5cdb409cbeb9afaa1d07fea9f2c1eed0297a44b05f32268a","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d33"]}
+2021.03.13:09:54:49.424: eths Eth: New job #ffd2a5a0 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:49.504: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xcf9d81c8273cc66bd91e3afe2a29dba91a725cf15c76f00dae330ac596ef67fe","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d33"]}
+2021.03.13:09:54:49.504: eths Eth: New job #cf9d81c8 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:52.203: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.13:09:54:52.238: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xcf9d81c8273cc66bd91e3afe2a29dba91a725cf15c76f00dae330ac596ef67fe","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d33"]}
+2021.03.13:09:54:53.210: main Eth speed: 50.575 MH/s, shares: 1/0/0, time: 0:00
+2021.03.13:09:54:53.592: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xf49a7d9d945c1c5a60060c2f309f076dfba051bca8df13d7dd396572617ce0af","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d33"]}
+2021.03.13:09:54:53.592: eths Eth: New job #f49a7d9d from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:57.493: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x87560958042199b6943c3967c5d89f7adcd67df898326517e90e23e84789fce9","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d33"]}
+2021.03.13:09:54:57.493: eths Eth: New job #87560958 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:58.325: main Eth speed: 49.696 MH/s, shares: 1/0/0, time: 0:00
+2021.03.13:09:54:58.807: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xbb75e34dfe7ef16171eb0b6fefd2e6ef1a09df59a4a159a1d0dfc07f45bb6aef","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d34"]}
+2021.03.13:09:54:58.807: eths Eth: New job #bb75e34d from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:54:59.002: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x07eb65e1318e8706d3271ceeec7969713715ee09dad24b75da850c58b6daadb6","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d34"]}
+2021.03.13:09:54:59.002: eths Eth: New job #07eb65e1 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:55:01.809: GPU1 Eth: GPU1: ETH share found!
+2021.03.13:09:55:01.810: eths Eth: Send: {"id":4,"jsonrpc":"2.0","method":"eth_submitWork","params":["0xd84cec93973d3391","0x07eb65e1318e8706d3271ceeec7969713715ee09dad24b75da850c58b6daadb6","0x826a9fb97bfc25045f0b255ab7a956890e64577831fe3c8e294085a03a48a8d5"]}
+
+2021.03.13:09:55:01.810: eths Eth: Share actual difficulty: 5439 MH
+2021.03.13:09:55:01.848: eths Eth: Received: {"id":4,"jsonrpc":"2.0","result":true}
+2021.03.13:09:55:01.848: eths Eth: Share accepted in 39 ms
+2021.03.13:09:55:02.206: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.13:09:55:02.206: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x30e73ce","0x862d94ed82ba247fc20d0e871b0c354e285e8d2893e650069f2afaf383137bb1"]}
+
+2021.03.13:09:55:02.242: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x07eb65e1318e8706d3271ceeec7969713715ee09dad24b75da850c58b6daadb6","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d34"]}
+2021.03.13:09:55:02.242: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.03.13:09:55:02.595: main GPU1: 61C 66% 194W
+GPUs power: 193.8 W
+2021.03.13:09:55:02.914: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x1d6cfffba14442482a2cdc8d146c90635220fcb5138e2e4ac2e1ec9e8f6c85d2","0x312b6007e9a1bb08b78dad2afdce476501adb039bc29ea6c27ede523fe87d3d4","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb78d34"]}
+2021.03.13:09:55:02.914: eths Eth: New job #1d6cfffb from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.13:09:55:03.529: main Eth speed: 50.345 MH/s, shares: 2/0/0, time: 0:01
+2021.03.13:09:55:05.923: unkn Quitting...
+2021.03.13:09:55:06.629: wdog Stopping watchdog thread
+2021.03.13:09:55:06.630: main Exit code: 0

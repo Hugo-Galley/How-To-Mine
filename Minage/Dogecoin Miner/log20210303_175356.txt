@@ -1,0 +1,72 @@
+2021.03.03:17:53:56.056: main Phoenix Miner 5.4c Windows/msvc - Release build
+2021.03.03:17:53:56.056: main Cmd line: -pool ethash.unmineable.com:3333 -wal DOGE:DPGGhE2b8zTLDFYyFUFVFuwhFUCHA5Fpj6.Worker1#8j79-n2tv -pass x 
+2021.03.03:17:53:56.085: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.03.03:17:53:56.103: main No OpenCL platforms found
+2021.03.03:17:53:56.103: main Available GPUs for mining:
+2021.03.03:17:53:56.103: main GPU1: GeForce RTX 3060 Ti (pcie 43), CUDA cap. 8.6, 8 GB VRAM, 38 CUs
+2021.03.03:17:53:56.106: main NVML library initialized
+2021.03.03:17:53:56.117: main Nvidia driver version: 461.72
+2021.03.03:17:53:56.255: main Eth: the pool list contains 1 pool (1 from command-line)
+2021.03.03:17:53:56.255: main Eth: primary pool: ethash.unmineable.com:3333
+2021.03.03:17:53:56.255: main Starting GPU mining
+2021.03.03:17:53:56.372: wdog Starting watchdog thread
+2021.03.03:17:53:56.372: main Eth: Connecting to ethash pool ethash.unmineable.com:3333 (proto: EthProxy)
+2021.03.03:17:53:56.372: main GPU1: 66C 76% 198W
+GPUs power: 197.5 W
+2021.03.03:17:53:56.398: eths Eth: Connected to ethash pool ethash.unmineable.com:3333 (139.59.176.110)
+2021.03.03:17:53:56.398: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["DOGE:DPGGhE2b8zTLDFYyFUFVFuwhFUCHA5Fpj6.Worker1#8j79-n2tv","x"]}
+
+2021.03.03:17:53:56.455: eths Eth: Received: {"id":1,"jsonrpc":"2.0","result":true}
+2021.03.03:17:53:56.455: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.03:17:53:56.506: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xadff13bdf853e9a33bca2c3a99da5396dd4996cf80e13d293f87def6d0cdd220","0x02708740d48e0787a3393377653b447394498154c15dca5f525c377fb09ef1e8","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb69839"]}
+2021.03.03:17:53:56.506: eths Eth: New job #adff13bd from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.03:17:53:56.507: GPU1 GPU1: Starting up... (0)
+2021.03.03:17:53:56.507: GPU1 GPU1: Generating ethash light cache for epoch #398
+2021.03.03:17:53:56.574: main Unable to start CDM server at port 3333: Une seule utilisation de chaque adresse de socket (protocole/adresse réseau/port) est habituellement autorisée (10048)
+2021.03.03:17:53:56.866: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xc66c28c7c89184a64236bbd22ca75101c6a24b330a31be9beb7fdd7dd1f676aa","0x02708740d48e0787a3393377653b447394498154c15dca5f525c377fb09ef1e8","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb69839"]}
+2021.03.03:17:53:56.866: eths Eth: New job #c66c28c7 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.03:17:53:58.860: GPU1 Light cache generated in 2.4 s (28.0 MB/s)
+2021.03.03:17:54:00.722: GPU1 GPU1: Allocating DAG (4.12) GB; good for epoch up to #400
+2021.03.03:17:54:00.966: GPU1 GPU1: Generating DAG for epoch #398
+2021.03.03:17:54:01.239: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xa105c07cdabae43e4e0135ea32004a3a03dff72232669455cc8e938f1295e08c","0x02708740d48e0787a3393377653b447394498154c15dca5f525c377fb09ef1e8","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb69839"]}
+2021.03.03:17:54:01.239: eths Eth: New job #a105c07c from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.03:17:54:01.576: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.03.03:17:54:03.104: GPU1 GPU1: DAG  11%
+2021.03.03:17:54:04.750: GPU1 GPU1: DAG  23%
+2021.03.03:17:54:05.253: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xb2c493d8779c71536303265d84b3b4856ffc9061dccb1f40fddf66e5dbb00b4a","0x02708740d48e0787a3393377653b447394498154c15dca5f525c377fb09ef1e8","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb69839"]}
+2021.03.03:17:54:05.253: eths Eth: New job #b2c493d8 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.03:17:54:05.790: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x81130400e348d68644b83d1b033f7afe8007389bd632de04b0786586d9385656","0x02708740d48e0787a3393377653b447394498154c15dca5f525c377fb09ef1e8","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb6983a"]}
+2021.03.03:17:54:05.790: eths Eth: New job #81130400 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.03:17:54:05.790: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xc8b4f71ca5955164cfe4cf96fee58a229005fde81d7530af8db021d2d1d6f485","0x02708740d48e0787a3393377653b447394498154c15dca5f525c377fb09ef1e8","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb6983a"]}
+2021.03.03:17:54:05.790: eths Eth: New job #c8b4f71c from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.03:17:54:06.367: GPU1 GPU1: DAG  34%
+2021.03.03:17:54:06.413: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.03:17:54:06.620: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.03.03:17:54:06.790: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xc8b4f71ca5955164cfe4cf96fee58a229005fde81d7530af8db021d2d1d6f485","0x02708740d48e0787a3393377653b447394498154c15dca5f525c377fb09ef1e8","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb6983a"]}
+2021.03.03:17:54:08.065: GPU1 GPU1: DAG  47%
+2021.03.03:17:54:09.641: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x58150dede6fa7f9ef1bb596c5a144210ac70eb8cd6e0b5e3d12f1999c6091933","0x02708740d48e0787a3393377653b447394498154c15dca5f525c377fb09ef1e8","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb6983a"]}
+2021.03.03:17:54:09.641: eths Eth: New job #58150ded from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.03:17:54:09.792: GPU1 GPU1: DAG  53%
+2021.03.03:17:54:11.298: GPU1 GPU1: DAG  64%
+2021.03.03:17:54:11.716: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.03.03:17:54:12.976: GPU1 GPU1: DAG  77%
+2021.03.03:17:54:13.820: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xda6250979c3fca89c7d72711bdadc44f2255f9e6e0d795a844bafd6ac66d5a42","0x02708740d48e0787a3393377653b447394498154c15dca5f525c377fb09ef1e8","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb6983a"]}
+2021.03.03:17:54:13.820: eths Eth: New job #da625097 from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.03:17:54:14.664: GPU1 GPU1: DAG  89%
+2021.03.03:17:54:16.421: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.03:17:54:16.421: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x0","0xf194fc4dc802b83b7cea56f8ee3c998f971c388bb1a9bfa9b9905493f7c2f83c"]}
+
+2021.03.03:17:54:16.423: GPU1 GPU1: DAG generated in 15.5 s (272.2 MB/s)
+2021.03.03:17:54:16.424: GPU1 CUDA error in CudaProgram.cu:204 : out of memory (2)
+2021.03.03:17:54:16.424: GPU1 GPU1: Failed to initialize search buffers: out of memory
+2021.03.03:17:54:16.424: GPU1 GPU1 initMiner error: Unable to initialize CUDA miner
+2021.03.03:17:54:16.424: wdog Fatal error detected. Restarting.
+2021.03.03:17:54:16.469: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xda6250979c3fca89c7d72711bdadc44f2255f9e6e0d795a844bafd6ac66d5a42","0x02708740d48e0787a3393377653b447394498154c15dca5f525c377fb09ef1e8","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb6983a"]}
+2021.03.03:17:54:16.469: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.03.03:17:54:16.819: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.03.03:17:54:17.525: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xbead6e6f536311152bb5176e2f7daef6853f18f9c05598811cefb2e55726fae5","0x02708740d48e0787a3393377653b447394498154c15dca5f525c377fb09ef1e8","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xb6983a"]}
+2021.03.03:17:54:17.525: eths Eth: New job #bead6e6f from ethash.unmineable.com:3333; diff: 4000MH
+2021.03.03:17:54:19.063: unkn Quitting...

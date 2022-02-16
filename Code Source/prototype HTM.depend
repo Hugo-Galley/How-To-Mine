@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1616421167 source:d:\projet code c++\prototype htm\code source\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"menu_demarage.h"
+	"identite.h"
+	"prerequis.h"
+	"menu debut.h"
+	"info_miniere.h"
+
+1615718804 d:\projet code c++\prototype htm\code source\menu_demarage.h
+
+1620902382 d:\projet code c++\prototype htm\code source\identite.h
+
+1615892385 d:\projet code c++\prototype htm\code source\prerequis.h
+
+1615911180 d:\projet code c++\prototype htm\code source\menu debut.h
+
+1615914384 d:\projet code c++\prototype htm\code source\info_miniere.h
+
+1615914010 source:d:\projet code c++\prototype htm\code source\menu debut.c
+
+1620902428 source:d:\projet code c++\prototype htm\code source\menu_demarage.c
+
+1620902400 source:d:\projet code c++\prototype htm\code source\minage.c
+	"identite.h"
+	"choic_pool.h"
+	"minage_coins.h"
+	"pool.h"
+
+1615919711 d:\projet code c++\prototype htm\code source\choic_pool.h
+
+1615920627 d:\projet code c++\prototype htm\code source\minage_coins.h
+
+1615981296 d:\projet code c++\prototype htm\code source\pool.h
+
+1644770349 source:d:\projet code c++\prototype htm\code source\minage_coins.c
+	"identite.h"
+	<stdlib.h>
+	<stdio.h>
+
+1620825116 source:d:\projet code c++\prototype htm\code source\pool.c
+	"minage_coins.h"
+
+1644150440 source:d:\projet code c++\prototype htm\code source\prerequis.c
+
+1644150809 source:d:\projet code c++\prototype htm\code source\site_pool.c
+
+1644150629 source:d:\projet code c++\prototype htm\code source\info_miniere.c
+	"info_miniere.h"
+	"identite.h"
+	"Site_pool.h"
+
+1616420528 d:\projet code c++\prototype htm\code source\site_pool.h
+

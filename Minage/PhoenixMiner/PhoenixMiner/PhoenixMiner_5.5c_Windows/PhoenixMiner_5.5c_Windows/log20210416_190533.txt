@@ -1,0 +1,269 @@
+2021.04.16:19:05:33.183: main Phoenix Miner 5.5c Windows/msvc - Release build
+2021.04.16:19:05:33.183: main Cmd line: -pool eth.2miners.com:2020 -wal 0x66319d452Aa07fe56Add8f2817cfE87E625ADbD8.PC_HUGO 
+2021.04.16:19:05:33.211: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.04.16:19:05:33.235: main No OpenCL platforms found
+2021.04.16:19:05:33.235: main Available GPUs for mining:
+2021.04.16:19:05:33.235: main GPU1: GeForce RTX 3060 Ti (pcie 43), CUDA cap. 8.6, 8 GB VRAM, 38 CUs
+2021.04.16:19:05:33.239: main NVML library initialized
+2021.04.16:19:05:33.256: main Nvidia driver version: 461.92
+2021.04.16:19:05:33.422: main Eth: the pool list contains 1 pool (1 from command-line)
+2021.04.16:19:05:33.422: main Eth: primary pool: eth.2miners.com:2020
+2021.04.16:19:05:33.423: main Starting GPU mining
+2021.04.16:19:05:33.540: wdog Starting watchdog thread
+2021.04.16:19:05:33.540: main Eth: Connecting to ethash pool eth.2miners.com:2020 (proto: EthProxy)
+2021.04.16:19:05:33.540: main GPU1: 60C 69% 175W
+GPUs power: 175.3 W
+2021.04.16:19:05:33.572: eths Eth: Connected to ethash pool eth.2miners.com:2020 (2001:41d0:700:470f::)
+2021.04.16:19:05:33.573: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0x66319d452Aa07fe56Add8f2817cfE87E625ADbD8.PC_HUGO"]}
+
+2021.04.16:19:05:33.585: eths Eth: Received: {"id":1,"jsonrpc":"2.0","result":true,"error":null}
+2021.04.16:19:05:33.586: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.04.16:19:05:33.599: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x931bd0bef096907e4e4e8706d0cb335e195a3e904479933bcbc3baa802018f4c","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4c8"],"error":null}
+2021.04.16:19:05:33.599: eths Eth: New job #931bd0be from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:05:33.600: GPU1 GPU1: Starting up... (0)
+2021.04.16:19:05:33.600: GPU1 GPU1: Generating ethash light cache for epoch #408
+2021.04.16:19:05:33.744: main Listening for CDM remote manager at port 3333 in read-only mode
+2021.04.16:19:05:34.941: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x00f00dfb3747133b71152bf0d82f5891375859657eca89f8657bc5feb0f2aad1","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4c8"]}
+2021.04.16:19:05:34.941: eths Eth: New job #00f00dfb from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:05:36.239: GPU1 Light cache generated in 2.6 s (25.4 MB/s)
+2021.04.16:19:05:37.899: GPU1 GPU1: Allocating DAG (4.20) GB; good for epoch up to #410
+2021.04.16:19:05:38.116: GPU1 GPU1: Generating DAG for epoch #408
+2021.04.16:19:05:38.572: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.04.16:19:05:39.768: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x7bacebd7f703e5a05243e553b3eb7a5daef225e1866bcabe680f6268d73c0eca","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4c9"]}
+2021.04.16:19:05:39.768: eths Eth: New job #7bacebd7 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:05:40.293: GPU1 GPU1: DAG   3%
+2021.04.16:19:05:42.438: GPU1 GPU1: DAG   8%
+2021.04.16:19:05:43.581: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.04.16:19:05:43.595: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x7bacebd7f703e5a05243e553b3eb7a5daef225e1866bcabe680f6268d73c0eca","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4c9"],"error":null}
+2021.04.16:19:05:43.758: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.04.16:19:05:44.576: GPU1 GPU1: DAG  13%
+2021.04.16:19:05:46.732: GPU1 GPU1: DAG  17%
+2021.04.16:19:05:46.769: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x628283570f5f05855a4e8a3efbfc1442216e2b5827bde5510e8f5975b568403e","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4c9"]}
+2021.04.16:19:05:46.769: eths Eth: New job #62828357 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:05:48.861: GPU1 GPU1: DAG  22%
+2021.04.16:19:05:48.929: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.04.16:19:05:50.988: GPU1 GPU1: DAG  27%
+2021.04.16:19:05:53.118: GPU1 GPU1: DAG  31%
+2021.04.16:19:05:53.592: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.04.16:19:05:53.592: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x0","0xf8d6813a120efce43f98137def0485c17dd1e3261cf445195a2ce077899e83a8"]}
+
+2021.04.16:19:05:53.607: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x628283570f5f05855a4e8a3efbfc1442216e2b5827bde5510e8f5975b568403e","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4c9"],"error":null}
+2021.04.16:19:05:53.607: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true,"error":null}
+2021.04.16:19:05:53.816: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x39fb23980ff9bc5501d205d42024a4ba2dd2caa6f2f7ef10926503c198fcf883","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4c9"]}
+2021.04.16:19:05:53.816: eths Eth: New job #39fb2398 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:05:54.031: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.04.16:19:05:55.248: GPU1 GPU1: DAG  36%
+2021.04.16:19:05:57.399: GPU1 GPU1: DAG  41%
+2021.04.16:19:05:59.165: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.04.16:19:05:59.544: GPU1 GPU1: DAG  45%
+2021.04.16:19:06:00.764: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xf6e84ee179f4c287a2f5bb23fd230a8f4be3da06b715e38af49e5725980f377f","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4c9"]}
+2021.04.16:19:06:00.764: eths Eth: New job #f6e84ee1 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:06:03.593: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.04.16:19:06:03.606: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xf6e84ee179f4c287a2f5bb23fd230a8f4be3da06b715e38af49e5725980f377f","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4c9"],"error":null}
+2021.04.16:19:06:03.644: main GPU1: 61C 69% 151W
+GPUs power: 151.4 W
+2021.04.16:19:06:04.286: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.04.16:19:06:07.766: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x6ef2b13c36b3865823206fcbfc296df978d3fda4b854df47c3dca709c47d3494","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4c9"]}
+2021.04.16:19:06:07.766: eths Eth: New job #6ef2b13c from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:06:09.465: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.04.16:19:06:10.317: GPU1 GPU1: DAG  50%
+2021.04.16:19:06:13.601: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.04.16:19:06:13.601: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x0","0xf8d6813a120efce43f98137def0485c17dd1e3261cf445195a2ce077899e83a8"]}
+
+2021.04.16:19:06:13.617: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x6ef2b13c36b3865823206fcbfc296df978d3fda4b854df47c3dca709c47d3494","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4c9"],"error":null}
+2021.04.16:19:06:13.617: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true,"error":null}
+2021.04.16:19:06:14.655: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.04.16:19:06:14.828: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x39110ab06022717aa1c0530536776920259bf14c7bc3a247dae61b747a18333f","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4c9"]}
+2021.04.16:19:06:14.828: eths Eth: New job #39110ab0 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:06:18.713: main  
+2021.04.16:19:06:18.713: main *** 0:00 *** 4/16 19:06 **************************************
+2021.04.16:19:06:18.713: main Eth: Mining ETH on eth.2miners.com:2020 for 0:00
+2021.04.16:19:06:18.713: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.04.16:19:06:18.713: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.04.16:19:06:18.713: main Eth: Average speed (5 min): 0.000 MH/s
+2021.04.16:19:06:18.713: main  
+2021.04.16:19:06:19.525: GPU1 GPU1: DAG  52%
+2021.04.16:19:06:19.796: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.04.16:19:06:21.731: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x99e553b2fb7be20357620cac6d32a161cfb049133949461ca64af6b19e370ee9","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4c9"]}
+2021.04.16:19:06:21.731: eths Eth: New job #99e553b2 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:06:22.476: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x0226a308d2abb87bf3dc055aabacb4c6ce7b1311f10a191be1acb38d066e2a35","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4ca"]}
+2021.04.16:19:06:22.476: eths Eth: New job #0226a308 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:06:23.611: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.04.16:19:06:23.624: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x0226a308d2abb87bf3dc055aabacb4c6ce7b1311f10a191be1acb38d066e2a35","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4ca"],"error":null}
+2021.04.16:19:06:24.978: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.04.16:19:06:28.731: GPU1 GPU1: DAG  53%
+2021.04.16:19:06:29.482: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x87797ffcb350fb8194bbbecf3f452c6d2f497189d15b4cdcf737db9959fa441f","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4ca"]}
+2021.04.16:19:06:29.482: eths Eth: New job #87797ffc from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:06:30.143: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.04.16:19:06:33.621: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.04.16:19:06:33.621: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x0","0xf8d6813a120efce43f98137def0485c17dd1e3261cf445195a2ce077899e83a8"]}
+
+2021.04.16:19:06:33.637: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x87797ffcb350fb8194bbbecf3f452c6d2f497189d15b4cdcf737db9959fa441f","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4ca"],"error":null}
+2021.04.16:19:06:33.637: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true,"error":null}
+2021.04.16:19:06:33.957: main GPU1: 61C 69% 148W
+GPUs power: 148.0 W
+2021.04.16:19:06:35.218: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:01
+2021.04.16:19:06:35.777: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xdd712bcf20ea4f07c052e92ef9fe31a72bf474ce1430173ae5c76931947a06f3","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4cb"]}
+2021.04.16:19:06:35.777: eths Eth: New job #dd712bcf from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:06:35.873: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xf700ff78f0684e036500e7ad591a6c9b407351a2606aed24a35aa5a444322a57","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4cb"]}
+2021.04.16:19:06:35.873: eths Eth: New job #f700ff78 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:06:37.822: GPU1 GPU1: DAG  55%
+2021.04.16:19:06:40.225: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:01
+2021.04.16:19:06:42.806: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xf122083bd9aa6f12452a55844855d3c997b4977e232683192c13844366b3f375","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4cb"]}
+2021.04.16:19:06:42.806: eths Eth: New job #f122083b from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:06:43.621: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.04.16:19:06:43.634: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xf122083bd9aa6f12452a55844855d3c997b4977e232683192c13844366b3f375","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4cb"],"error":null}
+2021.04.16:19:06:45.342: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:01
+2021.04.16:19:06:46.901: GPU1 GPU1: DAG  56%
+2021.04.16:19:06:49.797: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x25193ed5ef852755d78ec6d27186462fcf6254998cdef32d990cc720eb719cd4","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4cb"]}
+2021.04.16:19:06:49.797: eths Eth: New job #25193ed5 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:06:50.389: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:01
+2021.04.16:19:06:51.880: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x25c87e21e5cbe473afa9465a4aba3de4d99ad08ffec131ee52ceee26207caf00","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4cc"]}
+2021.04.16:19:06:51.880: eths Eth: New job #25c87e21 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:06:52.247: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd709496cc902b27a1c15f7fd5b325378fc87084c5e9e3e369c729f56ffa04078","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4cc"]}
+2021.04.16:19:06:52.247: eths Eth: New job #d709496c from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:06:53.634: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.04.16:19:06:53.634: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x0","0xf8d6813a120efce43f98137def0485c17dd1e3261cf445195a2ce077899e83a8"]}
+
+2021.04.16:19:06:53.646: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xd709496cc902b27a1c15f7fd5b325378fc87084c5e9e3e369c729f56ffa04078","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4cc"],"error":null}
+2021.04.16:19:06:53.647: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true,"error":null}
+2021.04.16:19:06:55.419: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:01
+2021.04.16:19:06:55.914: GPU1 GPU1: DAG  58%
+2021.04.16:19:06:56.361: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x1fd404e01ffabbb6dae783e6fc04392be80b3e9cb2aaa7dd2047f1313ac858bd","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4cd"]}
+2021.04.16:19:06:56.361: eths Eth: New job #1fd404e0 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:06:56.489: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x23e20910f555445fdab387005803361535bf2eabc95c87d7f204a389c8d10245","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4cd"]}
+2021.04.16:19:06:56.489: eths Eth: New job #23e20910 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:07:00.495: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:01
+2021.04.16:19:07:03.603: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x0956e6fc5042f7c55a9d90cc1c68063b28df1dec67639f54b3cae0dfb17a9820","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4cd"]}
+2021.04.16:19:07:03.603: eths Eth: New job #0956e6fc from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:07:03.644: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.04.16:19:07:03.678: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x0956e6fc5042f7c55a9d90cc1c68063b28df1dec67639f54b3cae0dfb17a9820","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4cd"],"error":null}
+2021.04.16:19:07:03.866: main  
+2021.04.16:19:07:03.866: main *** 0:01 *** 4/16 19:07 **************************************
+2021.04.16:19:07:03.866: main Eth: Mining ETH on eth.2miners.com:2020 for 0:01
+2021.04.16:19:07:03.866: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.04.16:19:07:03.866: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.04.16:19:07:03.866: main Eth: Average speed (5 min): 0.000 MH/s
+2021.04.16:19:07:03.866: main Eth: Effective speed: 0.00 MH/s; at pool: 0.00 MH/s
+2021.04.16:19:07:03.866: main  
+2021.04.16:19:07:04.073: main GPU1: 60C 69% 145W
+GPUs power: 145.1 W
+2021.04.16:19:07:04.954: GPU1 GPU1: DAG  59%
+2021.04.16:19:07:05.541: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:01
+2021.04.16:19:07:10.059: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x00402b93541fe3adcb597cb527cd05492fc1a1df7c04157a6520f4f047c2906b","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4ce"]}
+2021.04.16:19:07:10.059: eths Eth: New job #00402b93 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:07:10.216: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x9e8929f764683d3228cc3d9ddf2010db66a5d81f315d4128624152d59ff6b057","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4ce"]}
+2021.04.16:19:07:10.216: eths Eth: New job #9e8929f7 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:07:10.591: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:01
+2021.04.16:19:07:13.653: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.04.16:19:07:13.653: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x0","0xf8d6813a120efce43f98137def0485c17dd1e3261cf445195a2ce077899e83a8"]}
+
+2021.04.16:19:07:13.668: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x9e8929f764683d3228cc3d9ddf2010db66a5d81f315d4128624152d59ff6b057","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4ce"],"error":null}
+2021.04.16:19:07:13.673: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true,"error":null}
+2021.04.16:19:07:13.993: GPU1 GPU1: DAG  61%
+2021.04.16:19:07:15.643: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:01
+2021.04.16:19:07:17.287: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x01704949c78087de6aed279cacdb143ccb3765e84499e64dd88cef8ed0469b94","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4ce"]}
+2021.04.16:19:07:17.287: eths Eth: New job #01704949 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:07:20.665: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:01
+2021.04.16:19:07:23.066: GPU1 GPU1: DAG  63%
+2021.04.16:19:07:23.663: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.04.16:19:07:23.677: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x01704949c78087de6aed279cacdb143ccb3765e84499e64dd88cef8ed0469b94","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4ce"],"error":null}
+2021.04.16:19:07:24.149: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xb96b189b439f39a4350d8de50a5e71786ffac33ee9bd4b8af55ba68fcab077f0","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4ce"]}
+2021.04.16:19:07:24.149: eths Eth: New job #b96b189b from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:07:25.704: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:01
+2021.04.16:19:07:29.485: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x9b7ca53be1ed3a546046caae6ce023774045a96fbb07b65af12aded0690bbc79","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4cf"]}
+2021.04.16:19:07:29.485: eths Eth: New job #9b7ca53b from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:07:30.753: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:01
+2021.04.16:19:07:32.114: GPU1 GPU1: DAG  64%
+2021.04.16:19:07:33.669: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.04.16:19:07:33.669: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x0","0xf8d6813a120efce43f98137def0485c17dd1e3261cf445195a2ce077899e83a8"]}
+
+2021.04.16:19:07:33.684: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x9b7ca53be1ed3a546046caae6ce023774045a96fbb07b65af12aded0690bbc79","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4cf"],"error":null}
+2021.04.16:19:07:33.684: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true,"error":null}
+2021.04.16:19:07:34.396: main GPU1: 60C 69% 145W
+GPUs power: 144.9 W
+2021.04.16:19:07:35.802: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:02
+2021.04.16:19:07:36.553: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x38274c29c904421332312604b08765eecf00ec98fb5d43c8467f861a219c01f9","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4cf"]}
+2021.04.16:19:07:36.554: eths Eth: New job #38274c29 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:07:39.044: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x9bf3d0792d2e64a0492d284bcd6f41477731396b115115feefaf0f4638e98891","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4d0"]}
+2021.04.16:19:07:39.044: eths Eth: New job #9bf3d079 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:07:39.376: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x6dc5451b7d531c1326b7f6b50dbe5c3ff80f61307713ab153bb28dfddadde581","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4d0"]}
+2021.04.16:19:07:39.376: eths Eth: New job #6dc5451b from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:07:39.734: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x740bcfa34f5cee8e2582ab4b0abc0f456e83a68a23018fb163204c9709044b14","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4d0"]}
+2021.04.16:19:07:39.734: eths Eth: New job #740bcfa3 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:07:40.888: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:02
+2021.04.16:19:07:41.138: GPU1 GPU1: DAG  66%
+2021.04.16:19:07:42.723: GPU1 GPU1: DAG  67%
+2021.04.16:19:07:43.681: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.04.16:19:07:43.693: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x740bcfa34f5cee8e2582ab4b0abc0f456e83a68a23018fb163204c9709044b14","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4d0"],"error":null}
+2021.04.16:19:07:44.376: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x65949ab35919bc71d916ddddafc8217b298326520090247a0dbaf0f19a43334f","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4d1"]}
+2021.04.16:19:07:44.376: eths Eth: New job #65949ab3 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:07:44.753: GPU1 GPU1: DAG  70%
+2021.04.16:19:07:44.810: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x7f00cf8f9f9315b430dfc1e9673aeacc6740048fe788b5b03f9783221f0e50d8","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4d1"]}
+2021.04.16:19:07:44.810: eths Eth: New job #7f00cf8f from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:07:46.060: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:02
+2021.04.16:19:07:47.260: GPU1 GPU1: DAG  73%
+2021.04.16:19:07:47.309: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x1cc4c90f98d8771d5f15e29707bec811ac8539b9ce0b351a0b7d2ca81093fca2","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4d2"]}
+2021.04.16:19:07:47.310: eths Eth: New job #1cc4c90f from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:07:47.558: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd5b8dc62640eb8a6ddfc8a021abef626a0a023002e5dc9b8370072ca1e125718","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4d2"]}
+2021.04.16:19:07:47.558: eths Eth: New job #d5b8dc62 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:07:48.870: main  
+2021.04.16:19:07:48.870: main *** 0:02 *** 4/16 19:07 **************************************
+2021.04.16:19:07:48.870: main Eth: Mining ETH on eth.2miners.com:2020 for 0:02
+2021.04.16:19:07:48.870: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.04.16:19:07:48.870: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.04.16:19:07:48.870: main Eth: Average speed (5 min): 0.000 MH/s
+2021.04.16:19:07:48.870: main Eth: Effective speed: 0.00 MH/s; at pool: 0.00 MH/s
+2021.04.16:19:07:48.870: main  
+2021.04.16:19:07:49.431: GPU1 GPU1: DAG  77%
+2021.04.16:19:07:51.266: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:02
+2021.04.16:19:07:51.837: GPU1 GPU1: DAG  80%
+2021.04.16:19:07:53.684: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.04.16:19:07:53.684: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x0","0xf8d6813a120efce43f98137def0485c17dd1e3261cf445195a2ce077899e83a8"]}
+
+2021.04.16:19:07:53.699: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xd5b8dc62640eb8a6ddfc8a021abef626a0a023002e5dc9b8370072ca1e125718","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4d2"],"error":null}
+2021.04.16:19:07:53.699: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true,"error":null}
+2021.04.16:19:07:54.119: GPU1 GPU1: DAG  83%
+2021.04.16:19:07:54.418: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x4840f753af749af230904eadfdd4adfe7fa7c97c9ae5a7ec45b866d6a563f13d","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4d2"]}
+2021.04.16:19:07:54.418: eths Eth: New job #4840f753 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:07:56.447: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:02
+2021.04.16:19:07:56.489: GPU1 GPU1: DAG  86%
+2021.04.16:19:07:56.985: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x4045dd4dae73902ece680c77b9f137d012c3e8a4bfdb5f033e1e39a650b70cff","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4d3"]}
+2021.04.16:19:07:56.985: eths Eth: New job #4045dd4d from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:07:58.685: GPU1 GPU1: DAG  89%
+2021.04.16:19:08:00.787: GPU1 GPU1: DAG  92%
+2021.04.16:19:08:01.562: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:02
+2021.04.16:19:08:02.868: GPU1 GPU1: DAG  95%
+2021.04.16:19:08:03.693: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.04.16:19:08:03.704: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x4045dd4dae73902ece680c77b9f137d012c3e8a4bfdb5f033e1e39a650b70cff","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4d3"],"error":null}
+2021.04.16:19:08:03.990: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xcd4732e50b0a9f322b3a163d1392af60000e38c80820f8343e3d9b98675a5885","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4d3"]}
+2021.04.16:19:08:03.990: eths Eth: New job #cd4732e5 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:08:04.281: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x3fa666002a0dcac19e971514a52beb031a1de56c0870e8a39e38593f4bb641ea","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4d4"]}
+2021.04.16:19:08:04.281: eths Eth: New job #3fa66600 from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:08:04.387: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x854f057ca906b9c9e586b7bc83ceae29db675c0e60797c3726a4b8c733ee4a7d","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf4d4"]}
+2021.04.16:19:08:04.387: eths Eth: New job #854f057c from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:19:08:04.528: main GPU1: 55C 68% 100W
+GPUs power: 99.8 W
+2021.04.16:19:08:05.037: GPU1 GPU1: DAG  98%
+2021.04.16:19:08:05.172: GPU1 GPU1: DAG generated in 147.1 s (29.2 MB/s)
+2021.04.16:19:08:05.173: GPU1 CUDA error in CudaProgram.cu:204 : out of memory (2)
+2021.04.16:19:08:05.207: GPU1 GPU1: Failed to initialize search buffers: out of memory
+2021.04.16:19:08:05.216: GPU1 GPU1 initMiner error: Unable to initialize CUDA miner
+2021.04.16:19:08:05.218: wdog Fatal error detected. Restarting.
+2021.04.16:19:08:06.683: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:02

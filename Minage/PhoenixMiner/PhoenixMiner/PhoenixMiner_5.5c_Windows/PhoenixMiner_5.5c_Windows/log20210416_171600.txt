@@ -1,0 +1,35 @@
+2021.04.16:17:16:00.711: main Phoenix Miner 5.5c Windows/msvc - Release build
+2021.04.16:17:16:00.711: main Cmd line: -pool eth.2miners.com:2020 -wal 0x66319d452Aa07fe56Add8f2817cfE87E625ADbD8.PC_HUGO 
+2021.04.16:17:16:00.743: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.04.16:17:16:00.773: main No OpenCL platforms found
+2021.04.16:17:16:00.773: main Available GPUs for mining:
+2021.04.16:17:16:00.773: main GPU1: GeForce RTX 3060 Ti (pcie 43), CUDA cap. 8.6, 8 GB VRAM, 38 CUs
+2021.04.16:17:16:00.777: main NVML library initialized
+2021.04.16:17:16:00.796: main Nvidia driver version: 461.92
+2021.04.16:17:16:00.935: main Eth: the pool list contains 1 pool (1 from command-line)
+2021.04.16:17:16:00.935: main Eth: primary pool: eth.2miners.com:2020
+2021.04.16:17:16:00.935: main Starting GPU mining
+2021.04.16:17:16:01.063: wdog Starting watchdog thread
+2021.04.16:17:16:01.064: main Eth: Connecting to ethash pool eth.2miners.com:2020 (proto: EthProxy)
+2021.04.16:17:16:01.064: main GPU1: 56C 74% 23W
+GPUs power: 22.7 W
+2021.04.16:17:16:01.114: eths Eth: Connected to ethash pool eth.2miners.com:2020 (2001:41d0:700:4a65::)
+2021.04.16:17:16:01.114: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0x66319d452Aa07fe56Add8f2817cfE87E625ADbD8.PC_HUGO"]}
+
+2021.04.16:17:16:01.127: eths Eth: Received: {"id":1,"jsonrpc":"2.0","result":true,"error":null}
+2021.04.16:17:16:01.127: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.04.16:17:16:01.140: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xb8abf46c0c2e4926e6cfacf5d4539049f527d4351f40881ce3162b92c526c75d","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf2b9"],"error":null}
+2021.04.16:17:16:01.140: eths Eth: New job #b8abf46c from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:17:16:01.141: GPU1 GPU1: Starting up... (0)
+2021.04.16:17:16:01.141: GPU1 GPU1: Generating ethash light cache for epoch #408
+2021.04.16:17:16:01.267: main Listening for CDM remote manager at port 3333 in read-only mode
+2021.04.16:17:16:03.512: GPU1 Light cache generated in 2.4 s (28.3 MB/s)
+2021.04.16:17:16:04.074: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x756735bcf0a0d2d209a6d5fc057e3d40d02c0218ff1ac37e343a57513e0919fa","0xba5586fb4d9d316d3a8d5834d9b1a48f50d7c428281b93d90be12d67409c59af","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xbaf2b9"]}
+2021.04.16:17:16:04.074: eths Eth: New job #756735bc from eth.2miners.com:2020; diff: 8726MH
+2021.04.16:17:16:04.906: GPU1 GPU1: Allocating DAG (4.20) GB; good for epoch up to #410
+2021.04.16:17:16:05.032: GPU1 GPU1: Generating DAG for epoch #408
+2021.04.16:17:16:05.081: unkn Quitting...
+2021.04.16:17:16:05.170: GPU1 GPU1 initMiner error: Unable to initialize CUDA miner
+2021.04.16:17:16:05.221: wdog Stopping watchdog thread
+2021.04.16:17:16:05.221: main Exit code: 0

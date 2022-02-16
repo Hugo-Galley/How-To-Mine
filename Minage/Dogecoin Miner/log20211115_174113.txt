@@ -1,0 +1,33 @@
+2021.11.15:17:41:13.989: main Phoenix Miner 5.4c Windows/msvc - Release build
+2021.11.15:17:41:13.989: main Cmd line: -pool ethash.unmineable.com:3333 -wal DOGE:DPGGhE2b8zTLDFYyFUFVFuwhFUCHA5Fpj6.Worker1# -pass x 
+2021.11.15:17:41:14.007: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.11.15:17:41:14.017: main No OpenCL platforms found
+2021.11.15:17:41:14.017: main Available GPUs for mining:
+2021.11.15:17:41:14.017: main GPU1: NVIDIA GeForce RTX 3060 Ti (pcie 43), CUDA cap. 8.6, 8 GB VRAM, 38 CUs
+2021.11.15:17:41:14.064: main NVML library initialized
+2021.11.15:17:41:14.079: main Nvidia driver version: 472.39
+2021.11.15:17:41:14.227: main Eth: the pool list contains 1 pool (1 from command-line)
+2021.11.15:17:41:14.227: main Eth: primary pool: ethash.unmineable.com:3333
+2021.11.15:17:41:14.227: main Starting GPU mining
+2021.11.15:17:41:14.361: wdog Starting watchdog thread
+2021.11.15:17:41:14.362: main Eth: Connecting to ethash pool ethash.unmineable.com:3333 (proto: EthProxy)
+2021.11.15:17:41:14.362: main GPU1: 36C 0% 15W
+GPUs power: 14.8 W
+2021.11.15:17:41:14.395: eths Eth: Connected to ethash pool ethash.unmineable.com:3333 (138.68.136.178)
+2021.11.15:17:41:14.396: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["DOGE:DPGGhE2b8zTLDFYyFUFVFuwhFUCHA5Fpj6.Worker1#","x"]}
+
+2021.11.15:17:41:14.451: eths Eth: Received: {"id":1,"jsonrpc":"2.0","result":true,"error":null}
+2021.11.15:17:41:14.451: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.11.15:17:41:14.490: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xa366465d8bad11ce7778e925698debd8b0c378117f62e724daa2914d0cf652d2","0x05a006f672938919fddc06c085dd11fad80cddcdefeed085e1437db1109b4d74","0x7e00000007e00000007e00000007e00000007e00000007e00000007e","0xcfd8cd"],"error":null}
+2021.11.15:17:41:14.490: eths Eth: New job #a366465d from ethash.unmineable.com:3333; diff: 8726MH
+2021.11.15:17:41:14.491: GPU1 GPU1: Starting up... (0)
+2021.11.15:17:41:14.491: GPU1 GPU1: Generating ethash light cache for epoch #454
+2021.11.15:17:41:14.565: main Listening for CDM remote manager at port 3333 in read-only mode
+2021.11.15:17:41:17.041: GPU1 Light cache generated in 2.5 s (28.5 MB/s)
+2021.11.15:17:41:17.834: unkn Quitting...
+2021.11.15:17:41:18.453: GPU1 GPU1: Allocating DAG (4.56) GB; good for epoch up to #456
+2021.11.15:17:41:18.461: GPU1 GPU1: Generating DAG for epoch #454
+2021.11.15:17:41:18.702: GPU1 GPU1 initMiner error: Unable to initialize CUDA miner
+2021.11.15:17:41:18.738: wdog Stopping watchdog thread
+2021.11.15:17:41:18.739: main Exit code: 0

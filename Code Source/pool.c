@@ -150,3 +150,111 @@ void choix_pool_rvn ()
          }
          return 0;
 }
+void choix_pool_zel ()
+{
+    int pool=0;
+    choix_pool();
+        scanf("%d",&pool);
+        switch(pool)
+         {
+         case 1 :
+             {
+                 printf("\n\n Vous etes actuelement sur la pool : 2Miners \n\n \n ");
+                   minage_zel();
+                   break;
+             }
+         case 2 :
+            {
+                printf("\n\n Vous etes actuelement sur la pool : Cruxpool \n\n \n ");
+                   minage_zel();
+                   break;
+            }
+         case 3 :
+            {
+                printf("\n\n Vous etes actuelement sur la pool : Nanopool \n\n \n ");
+                   minage_zel();
+                   break;
+            }
+         default :
+            {
+                printf("Desolee cette pool n est pas prise en charge . ");
+                   printf("\n\nVoulez vous miner autre chose (1/oui 0/non)");
+
+                break;
+            }
+
+         }
+         return 0;
+}
+void choix_pool_grin ()
+{
+    int pool=0;
+    choix_pool();
+        scanf("%d",&pool);
+        switch(pool)
+         {
+         case 1 :
+             {
+                 printf("\n\n Vous etes actuelement sur la pool : 2Miners \n\n \n ");
+                   minage_grin();
+                   break;
+             }
+         case 2 :
+            {
+                printf("\n\n Vous etes actuelement sur la pool : Cruxpool \n\n \n ");
+                   minage_grin();
+                   break;
+            }
+         case 3 :
+            {
+                printf("\n\n Vous etes actuelement sur la pool : Nanopool \n\n \n ");
+                   minage_grin();
+                   break;
+            }
+         default :
+            {
+                printf("Desolee cette pool n est pas prise en charge . ");
+                   printf("\n\nVoulez vous miner autre chose (1/oui 0/non)");
+
+                break;
+            }
+
+         }
+         return 0;
+}
+void choix_pool_beam ()
+{
+    int pool=0;
+    choix_pool();
+        scanf("%d",&pool);
+        switch(pool)
+         {
+         case 1 :
+             {
+                 printf("\n\n Vous etes actuelement sur la pool : 2Miners \n\n \n ");
+                   minage_beam();
+                   break;
+             }
+         case 2 :
+            {
+                printf("\n\n Vous etes actuelement sur la pool : Cruxpool \n\n \n ");
+                   minage_beam();
+                   break;
+            }
+         case 3 :
+            {
+                printf("\n\n Vous etes actuelement sur la pool : Nanopool \n\n \n ");
+                   minage_beam();
+                   break;
+            }
+         default :
+            {
+                printf("Desolee cette pool n est pas prise en charge . ");
+                   printf("\n\nVoulez vous miner autre chose (1/oui 0/non)");
+
+                break;
+            }
+
+         }
+         return 0;
+}

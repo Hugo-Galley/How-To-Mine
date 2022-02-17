@@ -17,7 +17,7 @@ void info_minier()
 
  printf("\n\n Voici vos statistiques : \n");
  site_pool();
- printf(" L application prend %d pourcent de votre minage (1 pourcent pour la pool) ainsi que 0.25% sur le DOG .\n ",stat.pourcentage_pool);
+ printf(" L application prend %d pourcent de votre minage (1 pourcent pour la pool) ainsi que 0.25 pourcent sur le DOG du au paraignage .\n ",stat.pourcentage_pool);
  printf("Merci cela aide l'application a se remunerer . \n\n");
 
 

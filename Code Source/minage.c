@@ -45,6 +45,22 @@ identite_rvn infoRVN;
         break;
     }
 
+   case 5 :
+    {
+        choix_pool_zel ();
+        break;
+    }
+   case 6 :
+    {
+        choix_pool_grin ();
+        break;
+    }
+   case 7 :
+    {
+        choix_pool_beam ();
+        break;
+    }
+
    default :
     {
         printf("Desolee mais cette crypto monnaie n'est pas prise en charge . Merci de vous referez au tableau du menu demarer");

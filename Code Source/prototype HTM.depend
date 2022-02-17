@@ -11,7 +11,7 @@
 
 1615718804 d:\projet code c++\prototype htm\code source\menu_demarage.h
 
-1620902382 d:\projet code c++\prototype htm\code source\identite.h
+1645130649 d:\projet code c++\prototype htm\code source\identite.h
 
 1615892385 d:\projet code c++\prototype htm\code source\prerequis.h
 
@@ -21,9 +21,9 @@
 
 1615914010 source:d:\projet code c++\prototype htm\code source\menu debut.c
 
-1620902428 source:d:\projet code c++\prototype htm\code source\menu_demarage.c
+1645130750 source:d:\projet code c++\prototype htm\code source\menu_demarage.c
 
-1620902400 source:d:\projet code c++\prototype htm\code source\minage.c
+1645131154 source:d:\projet code c++\prototype htm\code source\minage.c
 	"identite.h"
 	"choic_pool.h"
 	"minage_coins.h"
@@ -35,12 +35,12 @@
 
 1615981296 d:\projet code c++\prototype htm\code source\pool.h
 
-1644770349 source:d:\projet code c++\prototype htm\code source\minage_coins.c
+1645132255 source:d:\projet code c++\prototype htm\code source\minage_coins.c
 	"identite.h"
 	<stdlib.h>
 	<stdio.h>
 
-1620825116 source:d:\projet code c++\prototype htm\code source\pool.c
+1645131272 source:d:\projet code c++\prototype htm\code source\pool.c
 	"minage_coins.h"
 
 1644150440 source:d:\projet code c++\prototype htm\code source\prerequis.c

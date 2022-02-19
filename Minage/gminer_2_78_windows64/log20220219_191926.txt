@@ -1,0 +1,27 @@
+2022.02.19:19:19:26.540: main Phoenix Miner 5.5c Windows/msvc - Release build
+2022.02.19:19:19:26.540: main Cmd line: -pool ethash.unmineable.com:3333 -wal DOGE:teesttstts.testeteh#8j79-n2tv -pass x 
+2022.02.19:19:19:26.556: main CUDA version: 11.0, CUDA runtime: 8.0
+2022.02.19:19:19:26.600: main No OpenCL platforms found
+2022.02.19:19:19:26.600: main Available GPUs for mining:
+2022.02.19:19:19:26.600: main GPU1: NVIDIA GeForce RTX 3060 Ti (pcie 43), CUDA cap. 8.6, 8 GB VRAM, 38 CUs
+2022.02.19:19:19:26.634: main NVML library initialized
+2022.02.19:19:19:26.655: main Nvidia driver version: 511.23
+2022.02.19:19:19:26.830: main Eth: the pool list contains 1 pool (1 from command-line)
+2022.02.19:19:19:26.830: main Eth: primary pool: ethash.unmineable.com:3333
+2022.02.19:19:19:26.831: main Starting GPU mining
+2022.02.19:19:19:26.968: wdog Starting watchdog thread
+2022.02.19:19:19:26.969: main Eth: Connecting to ethash pool ethash.unmineable.com:3333 (proto: EthProxy)
+2022.02.19:19:19:26.969: main GPU1: 36C 0% 15W
+GPUs power: 15.5 W
+2022.02.19:19:19:27.008: eths Eth: Connected to ethash pool ethash.unmineable.com:3333 (46.101.75.232)
+2022.02.19:19:19:27.008: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["DOGE:teesttstts.testeteh#8j79-n2tv","x"]}
+
+2022.02.19:19:19:27.114: eths Eth: Received: {"id":1,"jsonrpc":"2.0","worker":"eth1.0","result":null,"error":{"code":-1,"message":"Your DOGE address seems to be invalid or you are using an unsupported network."}}
+2022.02.19:19:19:27.114: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2022.02.19:19:19:27.118: eths Eth: Connection closed by the pool
+2022.02.19:19:19:27.119: eths Eth: Reconnecting in 5 seconds...
+2022.02.19:19:19:27.172: main Listening for CDM remote manager at port 3333 in read-only mode
+2022.02.19:19:19:31.341: unkn Quitting...
+2022.02.19:19:19:31.454: wdog Stopping watchdog thread
+2022.02.19:19:19:31.455: main Exit code: 0

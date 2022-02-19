@@ -1,0 +1,11 @@
+2021.03.14:22:08:33.171: main Phoenix Miner 5.5c Windows/msvc - Release build
+2021.03.14:22:08:33.171: main Cmd line: 
+2021.03.14:22:08:33.218: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.03.14:22:08:33.236: main No OpenCL platforms found
+2021.03.14:22:08:33.236: main Available GPUs for mining:
+2021.03.14:22:08:33.236: main GPU1: GeForce RTX 3060 Ti (pcie 43), CUDA cap. 8.6, 8 GB VRAM, 38 CUs
+2021.03.14:22:08:33.240: main NVML library initialized
+2021.03.14:22:08:33.249: main Nvidia driver version: 461.72
+2021.03.14:22:08:33.390: main Eth: No valid pools specified in epools.txt
+2021.03.14:22:08:33.390: main Eth: No valid pools specified on command line or in epools.txt
+2021.03.14:22:08:33.395: main Exit code: 5

@@ -32,18 +32,6 @@ struct identite_zel
     char nom[100];
     char adresse[100];
 };
-typedef struct identite_grin identite_grin;
-struct identite_grin
-{
-    char nom[100];
-    char adresse[100];
-};
-typedef struct identite_beam identite_beam;
-struct identite_beam
-{
-    char nom[100];
-    char adresse[100];
-};
 
 
 

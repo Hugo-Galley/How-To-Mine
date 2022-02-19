@@ -50,16 +50,6 @@ identite_rvn infoRVN;
         choix_pool_zel ();
         break;
     }
-   case 6 :
-    {
-        choix_pool_grin ();
-        break;
-    }
-   case 7 :
-    {
-        choix_pool_beam ();
-        break;
-    }
 
    default :
     {

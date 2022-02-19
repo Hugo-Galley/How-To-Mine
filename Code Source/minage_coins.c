@@ -20,7 +20,7 @@ void minage_btc()
 
          FILE*fichier=NULL;
 
-        fichier=fopen("../Minage/NVIDIA/minage ETC.bat","w+");
+        fichier=fopen("../Minage/gminer_2_78_windows64/start_miner_etc.bat","w+");
 
         if(fichier!=NULL);
         {
@@ -44,7 +44,7 @@ void minage_ether()
 
            FILE*fichier3=NULL;
 
-        fichier3=fopen("../Minage/Minage Ether/Minage ETH.bat","w+");
+        fichier3=fopen("../Minage/gminer_2_78_windows64/Minage ETH.bat","w+");
 
         if(fichier3!=NULL);
         {
@@ -67,7 +67,7 @@ void minage_doge()
 
         FILE*fichier2=NULL;
 
-        fichier2=fopen("../Minage/Dogecoin Miner/START.bat","w+");
+        fichier2=fopen("../Minage/gminer_2_78_windows64/START.bat","w+");
 
         if(fichier2!=NULL);
         {
@@ -88,7 +88,7 @@ void minage_rvn()
 
            FILE*fichier4=NULL;
 
-        fichier4=fopen("../Minage/gminer_2_45_windows64/mine_ravencoin.bat","w+");
+        fichier4=fopen("../Minage/gminer_2_78_windows64/mine_ravencoin.bat","w+");
 
         if(fichier4!=NULL);
         {
@@ -106,7 +106,7 @@ void minage_zel()
         scanf("%s",&infoZEL.adresse);
     FILE*fichier4=NULL;
 
-        fichier4=fopen("../Minage/gminer_2_45_windows64/mine_zelcash.bat","w+");
+        fichier4=fopen("../Minage/gminer_2_78_windows64/mine_zelcash.bat","w+");
 
         if(fichier4!=NULL);
         {
@@ -115,46 +115,6 @@ void minage_zel()
         }
 
         printf("\n Rendez vous sur le raccourcie Minage ZEL est double cliquee dessus pour lancee le minage \n",infoZEL.nom,infoZEL.adresse);
-        printf("\n Le virement sera automatiquement verser a cette adresse des que le montant minimum requis sera atteint \n\n");
-        printf("Appuyez sur 1 pour continuer)");
-}
-void minage_grin()
-{
-     printf("Veuillez entrer votre adresse de reception\n");
-        scanf("%s",&infoGrin.adresse);
-    FILE*fichier4=NULL;
-
-        fichier4=fopen("../Minage/gminer_2_45_windows64/mine_grin32.bat","w+");
-
-        if(fichier4!=NULL);
-        {
-              fprintf(fichier4,"miner.exe --algo grin32 --server grin.2miners.com:3030 --user %s\npause",infoGrin.adresse);
-              fclose(fichier4);
-        }
-
-        printf("\n Rendez vous sur le raccourcie Minage Grin est double cliquee dessus pour lancee le minage \n",infoGrin.nom,infoGrin.adresse);
-        printf("\n Le virement sera automatiquement verser a cette adresse des que le montant minimum requis sera atteint \n\n");
-        printf("Appuyez sur 1 pour continuer)");
-}
-void minage_beam()
-{
-    printf("Veuilez entrer le nom de machine(veuillez utiliser _ pour les espaces)\n");
-        scanf("%s",&infoBeam.nom);
-    printf("Veuillez entrer votre adresse de reception\n");
-        scanf("%s",&infoBeam.adresse);
-
-
-    FILE*fichier4=NULL;
-
-        fichier4=fopen("../Minage/gminer_2_45_windows64/Minage_Beam.bat","w+");
-
-        if(fichier4!=NULL);
-        {
-              fprintf(fichier4,"miner.exe --algo beamhash --server beam-eu.leafpool.com:3333 --ssl 1 --user %s\n.%s\npause",infoBeam.adresse,infoBeam.nom);
-              fclose(fichier4);
-        }
-
-        printf("\n Rendez vous sur le raccourcie Minage Beam est double cliquee dessus pour lancee le minage \n",infoBeam.nom,infoBeam.adresse);
         printf("\n Le virement sera automatiquement verser a cette adresse des que le montant minimum requis sera atteint \n\n");
         printf("Appuyez sur 1 pour continuer)");
 }

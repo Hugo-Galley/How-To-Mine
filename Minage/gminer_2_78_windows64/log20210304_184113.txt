@@ -1,0 +1,245 @@
+2021.03.04:18:41:13.062: main Phoenix Miner 5.5c Windows/msvc - Release build
+2021.03.04:18:41:13.062: main Cmd line: -pool ssl://eth-eu1.nanopool.org:9433 -pool2 ssl://eth-eu2.nanopool.org:9433 -wal 0x66319d452Aa07fe56Add8f2817cfE87E625ADbD8.Rig001 -pass tk 
+2021.03.04:18:41:13.092: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.03.04:18:41:13.116: main No OpenCL platforms found
+2021.03.04:18:41:13.116: main Available GPUs for mining:
+2021.03.04:18:41:13.116: main GPU1: GeForce RTX 3060 Ti (pcie 43), CUDA cap. 8.6, 8 GB VRAM, 38 CUs
+2021.03.04:18:41:13.121: main NVML library initialized
+2021.03.04:18:41:13.138: main Nvidia driver version: 461.72
+2021.03.04:18:41:13.277: main Eth: the pool list contains 2 pools (2 from command-line)
+2021.03.04:18:41:13.277: main Eth: primary pool: ssl://eth-eu1.nanopool.org:9433
+2021.03.04:18:41:13.278: main Starting GPU mining
+2021.03.04:18:41:13.409: wdog Starting watchdog thread
+2021.03.04:18:41:13.660: main Eth: Connecting to ethash pool ssl://eth-eu1.nanopool.org:9433 (proto: EthProxy)
+2021.03.04:18:41:13.661: main GPU1: 43C 60% 19W
+GPUs power: 19.5 W
+2021.03.04:18:41:13.687: eths Eth: Connected to SSL ethash pool eth-eu1.nanopool.org:9433 (213.32.74.230)
+2021.03.04:18:41:13.687: eths Eth: Unable to verify the connection to ssl://eth-eu1.nanopool.org:9433
+2021.03.04:18:41:13.712: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0x66319d452Aa07fe56Add8f2817cfE87E625ADbD8.Rig001","tk"]}
+
+2021.03.04:18:41:13.736: eths Eth: Received: {"jsonrpc":"2.0","id":1,"result":true}
+2021.03.04:18:41:13.736: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.04:18:41:13.736: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xe086e82ea77e461ab473b6263144d854310b669d5ffc657c25df383993876d0d","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:13.736: eths Eth: New job #e086e82e from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:41:13.737: GPU1 GPU1: Starting up... (0)
+2021.03.04:18:41:13.737: GPU1 GPU1: Generating ethash light cache for epoch #399
+2021.03.04:18:41:13.754: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xe086e82ea77e461ab473b6263144d854310b669d5ffc657c25df383993876d0d","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:13.870: main Listening for CDM remote manager at port 3333 in read-only mode
+2021.03.04:18:41:14.267: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xb74fcf46bd903280133604f8de26c9fe17870fbd652e214113d2c26a562e49aa","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:14.267: eths Eth: New job #b74fcf46 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:41:16.075: GPU1 Light cache generated in 2.3 s (28.2 MB/s)
+2021.03.04:18:41:17.266: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x0f45337040422fb0c15e2c599811c848ebbbe209040d20294792f95225f19084","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:17.266: eths Eth: New job #0f453370 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:41:17.496: GPU1 GPU1: Allocating DAG (4.13) GB; good for epoch up to #401
+2021.03.04:18:41:17.620: GPU1 GPU1: Generating DAG for epoch #399
+2021.03.04:18:41:18.675: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.03.04:18:41:19.158: GPU1 GPU1: DAG  20%
+2021.03.04:18:41:20.260: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xbb4bd2bd2be7308f8d8e93a1b1df530ae48f9047e86127e16a484be8260abefc","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:20.260: eths Eth: New job #bb4bd2bd from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:41:20.744: GPU1 GPU1: DAG  44%
+2021.03.04:18:41:22.294: GPU1 GPU1: DAG  67%
+2021.03.04:18:41:23.396: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xfb5f9b427b222bcde303cdb03a8657507ce6925c8183e603c009db5e0cfaf628","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:23.396: eths Eth: New job #fb5f9b42 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:41:23.718: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.04:18:41:23.737: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xfb5f9b427b222bcde303cdb03a8657507ce6925c8183e603c009db5e0cfaf628","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:23.810: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.03.04:18:41:23.835: GPU1 GPU1: DAG  91%
+2021.03.04:18:41:24.452: GPU1 GPU1: DAG generated in 6.8 s (617.1 MB/s)
+2021.03.04:18:41:24.454: GPU1 GPU1: Using v2 Ethash CUDA kernels (GeForce RTX 3060 Ti)
+2021.03.04:18:41:26.647: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xf84c18844f2b35de2d953580818e650c629225ea67d3c882f5a6d56fc102af64","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:26.647: eths Eth: New job #f84c1884 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:41:28.974: main Eth speed: 45.624 MH/s, shares: 0/0/0, time: 0:00
+2021.03.04:18:41:29.310: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xc77c64e6d134dafdeee253ea63aba1c253d57742606b43bd3e9dfedf838fd593","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:29.310: eths Eth: New job #c77c64e6 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:41:32.368: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xcc7151e6fd52168e5a722eb22e5aee4116e7b8d74e71fbec24820bce39edefa6","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:32.368: eths Eth: New job #cc7151e6 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:41:33.721: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.04:18:41:33.721: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x2b829e3","0xd0bd904bc95f5bfd48c2131004a876f14ef4c05c827ee6f6103945fb54d19823"]}
+
+2021.03.04:18:41:33.786: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xcc7151e6fd52168e5a722eb22e5aee4116e7b8d74e71fbec24820bce39edefa6","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:34.167: main Eth speed: 47.329 MH/s, shares: 0/0/0, time: 0:00
+2021.03.04:18:41:35.283: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xe9ec894e7be9935d8d0cc51aca250c6e68068e6befbd2137e690bb2a3fe405b1","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:35.283: eths Eth: New job #e9ec894e from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:41:38.282: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xe3c321dfe6ecec11cb66e2f2114c299e139b11137f67ce9f181984eecc721037","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:38.282: eths Eth: New job #e3c321df from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:41:39.269: main Eth speed: 48.415 MH/s, shares: 0/0/0, time: 0:00
+2021.03.04:18:41:39.312: GPU1 Eth: GPU1: ETH share found!
+2021.03.04:18:41:39.312: eths Eth: Send: {"id":4,"jsonrpc":"2.0","method":"eth_submitWork","params":["0xc35a249ec7105c76","0xe3c321dfe6ecec11cb66e2f2114c299e139b11137f67ce9f181984eecc721037","0x5b6a64c7a74a6728a725cb41118b04fe6efd023b063bc88244ef7eaa4af15d1e"]}
+
+2021.03.04:18:41:39.312: eths Eth: Share actual difficulty: 14.6 GH (!)
+2021.03.04:18:41:39.339: eths Eth: Received: {"jsonrpc":"2.0","id":4,"result":true}
+2021.03.04:18:41:39.339: eths Eth: Share accepted in 27 ms
+2021.03.04:18:41:41.328: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x5b7e1d5124fe583962d8e7d3e31fde0d5e8163dbc1d5ef300854f27cf56fb8ae","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:41.328: eths Eth: New job #5b7e1d51 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:41:41.617: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x4599c139be5a91c116fe8ac48acb4bf0e95004361060fd90275c1c3f8012d45f","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:41.617: eths Eth: New job #4599c139 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:41:41.744: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xad88de868354e093983caa7fba25d243ba0073e7ab122437ee06587fb4ef09a4","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:41.745: eths Eth: New job #ad88de86 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:41:43.571: main GPU1: 60C 65% 191W
+GPUs power: 191.0 W
+2021.03.04:18:41:43.726: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.04:18:41:43.782: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xad88de868354e093983caa7fba25d243ba0073e7ab122437ee06587fb4ef09a4","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:44.389: main Eth speed: 49.692 MH/s, shares: 1/0/0, time: 0:00
+2021.03.04:18:41:44.603: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x31d225c6d40d325fe420c8a332fc7c4e465c701e307147e69fc76c85c258ab92","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:44.603: eths Eth: New job #31d225c6 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:41:48.331: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x2b3897cdb72822cf6c19d1f103a05063ea43500e0ea88d3701d98d3af292a868","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:48.331: eths Eth: New job #2b3897cd from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:41:49.519: main Eth speed: 50.598 MH/s, shares: 1/0/0, time: 0:00
+2021.03.04:18:41:50.619: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x154bd7a9442a104b9d1097f80658e1dd4892b6f8acff6913f6594f7000b86184","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:50.619: eths Eth: New job #154bd7a9 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:41:53.654: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x131b1ac8c89695fa94de94f4a65e150861b27aea6ab7035b0e2f4c0a78d8ba60","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:53.654: eths Eth: New job #131b1ac8 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:41:53.728: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.04:18:41:53.728: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x2efb43f","0xd0bd904bc95f5bfd48c2131004a876f14ef4c05c827ee6f6103945fb54d19823"]}
+
+2021.03.04:18:41:53.761: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x131b1ac8c89695fa94de94f4a65e150861b27aea6ab7035b0e2f4c0a78d8ba60","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:54.600: main Eth speed: 50.768 MH/s, shares: 1/0/0, time: 0:00
+2021.03.04:18:41:56.613: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x33aca398d1651b2c5ad4ba32f832a773697563f6a681e4cd1b8c7fe7fb655958","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:56.613: eths Eth: New job #33aca398 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:41:58.717: main  
+2021.03.04:18:41:58.717: main *** 0:00 *** 3/4 18:41 **************************************
+2021.03.04:18:41:58.717: main Eth: Mining ETH on ssl://eth-eu1.nanopool.org:9433 for 0:00
+2021.03.04:18:41:58.717: main Eth: Accepted shares 1 (0 stales), rejected shares 0 (0 stales)
+2021.03.04:18:41:58.717: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.03.04:18:41:58.717: main Eth: Maximum difficulty of found share: 14.6 GH (!)
+2021.03.04:18:41:58.717: main Eth: Average speed (5 min): 49.581 MH/s
+2021.03.04:18:41:58.717: main  
+2021.03.04:18:41:59.594: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x11381654b8de6d7832f52c128b320ad79b1893e841f25fa2acb1f1cc3354f41b","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:41:59.594: eths Eth: New job #11381654 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:41:59.730: main Eth speed: 50.720 MH/s, shares: 1/0/0, time: 0:00
+2021.03.04:18:42:02.728: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x4bec737a7a94c61f15eb4e4fa446861ba1b42a78bd41560ba08ac9dd01f54617","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:02.728: eths Eth: New job #4bec737a from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:02.792: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x25fe2cfd457e6ec7a911dafced57b8e3b90f34eed8f51421874efccb5385237b","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:02.792: eths Eth: New job #25fe2cfd from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:03.078: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x8e31eb1ec45b8073acbb0b40f054691284ee08267d56d07605dd4a542c1bdd9a","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:03.078: eths Eth: New job #8e31eb1e from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:03.349: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xf8ff6251bb8e6587b54000eaf74e5216505e631f0cc59a65150c1b23dfe13cec","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:03.349: eths Eth: New job #f8ff6251 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:03.734: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.04:18:42:03.783: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xf8ff6251bb8e6587b54000eaf74e5216505e631f0cc59a65150c1b23dfe13cec","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:03.983: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x8806529986c44750f915f5704492b1b94ea237452cf03529b1ff595c39916669","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:03.983: eths Eth: New job #88065299 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:04.822: main Eth speed: 49.899 MH/s, shares: 1/0/0, time: 0:00
+2021.03.04:18:42:06.427: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x8f111ce489e6c11835df38ca5eefe454b732e21651447a1c927550043791e668","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:06.427: eths Eth: New job #8f111ce4 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:09.324: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xbc224dd6b84b8d30c4fdd0280a7901e3576dd616c757231d230be83cafdc4133","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:09.324: eths Eth: New job #bc224dd6 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:09.915: main Eth speed: 49.175 MH/s, shares: 1/0/0, time: 0:00
+2021.03.04:18:42:12.379: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x3d35448d552582376b2c6d62ff162245c09e79ca1b9904ce5f04edc755864b1a","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:12.379: eths Eth: New job #3d35448d from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:13.153: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xc8ff6ab6402adc6aba339d92be490b4b43652f3197bcbaa64bf8d765e74dac88","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:13.154: eths Eth: New job #c8ff6ab6 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:13.225: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x79e24110f083e5db96bbbf6748f43be3b222915e0ff595d9989564802394662c","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:13.225: eths Eth: New job #79e24110 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:13.742: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.04:18:42:13.742: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x2f35d6f","0xd0bd904bc95f5bfd48c2131004a876f14ef4c05c827ee6f6103945fb54d19823"]}
+
+2021.03.04:18:42:13.766: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x79e24110f083e5db96bbbf6748f43be3b222915e0ff595d9989564802394662c","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:13.805: main GPU1: 64C 70% 188W
+GPUs power: 187.9 W
+2021.03.04:18:42:14.955: main Eth speed: 48.965 MH/s, shares: 1/0/0, time: 0:01
+2021.03.04:18:42:16.121: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x3a8701fb60314001e93f0dc613e4e1c84d7887231d23ea6135b764460b9f786e","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:16.121: eths Eth: New job #3a8701fb from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:18.353: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x26fd712de9cb6716ba9f2c41ef9b58664c7aeb0f9a6b858658a8560436414f83","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:18.353: eths Eth: New job #26fd712d from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:18.524: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x7c3df8f9ada338b8734f8ec09e260455ff280eb3b08959441707861e62d0593c","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:18.524: eths Eth: New job #7c3df8f9 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:20.052: main Eth speed: 48.961 MH/s, shares: 1/0/0, time: 0:01
+2021.03.04:18:42:21.754: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x0004fdd5ae6aebd5a50cf7d3e33c390c50adee68e179031f138d2b176bd03c8b","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:21.755: eths Eth: New job #0004fdd5 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:23.084: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x518997db2f3c5eb4d01f607cc6504ec64961de379b7d7b23bd15688abacb0d39","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:23.084: eths Eth: New job #518997db from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:23.206: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xc723d1102a607e27bb717a6e396a630a109c06c46289f86bbc6f693f6f3a2b61","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:23.207: eths Eth: New job #c723d110 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:23.754: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.04:18:42:23.784: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xc723d1102a607e27bb717a6e396a630a109c06c46289f86bbc6f693f6f3a2b61","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:24.694: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xbcadcce9ecbfa94874c7ec2baa6e1686e3fd34af323bc8d4bce70b18469e113b","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:24.694: eths Eth: New job #bcadcce9 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:24.866: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x532ae1a7df53a67f852d3da40f0d16759e1b8c17d48545d4d05240908fb2fe0c","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:24.866: eths Eth: New job #532ae1a7 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:25.142: main Eth speed: 49.629 MH/s, shares: 1/0/0, time: 0:01
+2021.03.04:18:42:27.807: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x085a987ccb292c40185e9a7cad8041d8922fe7f509c262092802feead52950c9","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:27.807: eths Eth: New job #085a987c from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:30.224: main Eth speed: 50.869 MH/s, shares: 1/0/0, time: 0:01
+2021.03.04:18:42:30.793: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xbbe20c43e73e724d0f4942a66ed8540c1a3d5e9f1ecaee490c2b9993db42afe0","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:30.793: eths Eth: New job #bbe20c43 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:32.117: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xe853fc70cb56e3125494418928d0bd58bd676e371cdbd7ebef12bd4fb94c02f8","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:32.117: eths Eth: New job #e853fc70 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:32.263: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x5472eadc2705439ced6e53475ecf9b7e8aead0c789578ca90f09c97a0e16e90e","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:32.263: eths Eth: New job #5472eadc from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:33.764: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.04:18:42:33.764: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x2f69666","0xd0bd904bc95f5bfd48c2131004a876f14ef4c05c827ee6f6103945fb54d19823"]}
+
+2021.03.04:18:42:33.792: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x5472eadc2705439ced6e53475ecf9b7e8aead0c789578ca90f09c97a0e16e90e","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:35.146: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x56126e3f8e0157b2edec47b37599e94dfde0b662409e8d36aade1a93cee97105","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:35.146: eths Eth: New job #56126e3f from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:35.327: main Eth speed: 51.358 MH/s, shares: 1/0/0, time: 0:01
+2021.03.04:18:42:38.179: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x01d29e5e2568a5eaeb9102a4c4e5b3c07f85cd802a99db33a13894d99ce6da8a","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:38.179: eths Eth: New job #01d29e5e from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:40.417: main Eth speed: 51.421 MH/s, shares: 1/0/0, time: 0:01
+2021.03.04:18:42:41.192: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x3ca7b1d0c45558ea565af1349b498d625e590561d11f510193693c0bbc716802","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:41.192: eths Eth: New job #3ca7b1d0 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:42.758: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xed46a1b0fb18a9d2b01a6d265be003e0a3aa4b02d1fd18a9885e6f6e00473610","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:42.759: eths Eth: New job #ed46a1b0 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:42.869: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x3cf2168e9de48a127d58f5880ce68d008c5e1ececfc1d6f70911477ecb37669f","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:42.870: eths Eth: New job #3cf2168e from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:43.773: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.04:18:42:43.794: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x3cf2168e9de48a127d58f5880ce68d008c5e1ececfc1d6f70911477ecb37669f","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:43.883: main  
+2021.03.04:18:42:43.883: main *** 0:01 *** 3/4 18:42 **************************************
+2021.03.04:18:42:43.883: main Eth: Mining ETH on ssl://eth-eu1.nanopool.org:9433 for 0:01
+2021.03.04:18:42:43.883: main Eth: Accepted shares 1 (0 stales), rejected shares 0 (0 stales)
+2021.03.04:18:42:43.883: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.03.04:18:42:43.883: main Eth: Maximum difficulty of found share: 14.6 GH (!)
+2021.03.04:18:42:43.883: main Eth: Average speed (5 min): 49.932 MH/s
+2021.03.04:18:42:43.883: main Eth: Effective speed: 111.11 MH/s; at pool: 111.11 MH/s
+2021.03.04:18:42:43.883: main  
+2021.03.04:18:42:43.883: main GPU1: 67C 72% 197W
+GPUs power: 197.4 W
+2021.03.04:18:42:45.511: main Eth speed: 51.384 MH/s, shares: 1/0/0, time: 0:01
+2021.03.04:18:42:45.875: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x25d1e1902458a3bcc5c5fdc6178e4357604785188224a38856999c4745793c31","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:45.875: eths Eth: New job #25d1e190 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:48.763: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x77b9a487cf9e93468e5f6af115c1a4cf67b54fd669fc48cc9a8c2f5e92dab304","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:48.763: eths Eth: New job #77b9a487 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:50.588: main Eth speed: 51.376 MH/s, shares: 1/0/0, time: 0:01
+2021.03.04:18:42:51.797: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x3973eaf8a56cc649bb287ab8be610a82ab3f0336cd6d10030c3f72f741d2b6c6","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:51.797: eths Eth: New job #3973eaf8 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:53.787: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.04:18:42:53.787: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x2fcb98a","0xd0bd904bc95f5bfd48c2131004a876f14ef4c05c827ee6f6103945fb54d19823"]}
+
+2021.03.04:18:42:53.849: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x3973eaf8a56cc649bb287ab8be610a82ab3f0336cd6d10030c3f72f741d2b6c6","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:54.845: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x7370ee3fd4382f601287a1bb4fbbdfe68a8b353a9b5ede6a5236914b1be14781","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:54.845: eths Eth: New job #7370ee3f from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:42:55.698: main Eth speed: 51.509 MH/s, shares: 1/0/0, time: 0:01
+2021.03.04:18:42:58.089: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xa4b126be5d6b6758a9a35f32f9c776fc01b2773b0c3daae8a62c4383a22a26de","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:42:58.089: eths Eth: New job #a4b126be from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:43:00.778: main Eth speed: 51.743 MH/s, shares: 1/0/0, time: 0:01
+2021.03.04:18:43:00.814: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x3a3088776b82c4115a579675e52c575fd8be9d88e8786910df352ba38444558b","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:43:00.814: eths Eth: New job #3a308877 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:43:03.802: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.03.04:18:43:03.818: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xa01a30f8ac5b5417fcd965a6eb1a7cc6458fae1e2fc7153031ca66d25283dfa8","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:43:03.818: eths Eth: New job #a01a30f8 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:43:03.859: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xa01a30f8ac5b5417fcd965a6eb1a7cc6458fae1e2fc7153031ca66d25283dfa8","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:43:05.856: main Eth speed: 51.348 MH/s, shares: 1/0/0, time: 0:01
+2021.03.04:18:43:06.808: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0xe23838fa1e421b24496ae3b7e97dd2423114b5c7769fae7e2116908019d2b9c8","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:43:06.808: eths Eth: New job #e23838fa from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:43:09.746: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x980352ffc667afb03a1f8a441919ee7a586e6dd0cc897bfc5aee96877b57f60a","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:43:09.746: eths Eth: New job #980352ff from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:43:10.935: main Eth speed: 51.025 MH/s, shares: 1/0/0, time: 0:01
+2021.03.04:18:43:12.786: unkn Quitting...
+2021.03.04:18:43:12.792: eths Eth: Received: {"jsonrpc":"2.0","id":0,"result":["0x1017ead154f352c5b900b1262fcb5b9976fc50e49fe6ffc246ab4e125e312fa4","0xd6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+2021.03.04:18:43:12.792: eths Eth: New job #1017ead1 from ssl://eth-eu1.nanopool.org:9433; diff: 10000MH
+2021.03.04:18:43:13.367: wdog Stopping watchdog thread
+2021.03.04:18:43:13.367: main Exit code: 0

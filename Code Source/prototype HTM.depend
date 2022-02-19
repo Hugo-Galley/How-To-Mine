@@ -54,3 +54,103 @@
 
 1616420528 d:\projet code c++\prototype htm\code source\site_pool.h
 
+1645134079 source:d:\projet code c++\how-to-mine\code source\info_miniere.c
+	"info_miniere.h"
+	"identite.h"
+	"Site_pool.h"
+
+1615914384 d:\projet code c++\how-to-mine\code source\info_miniere.h
+
+1645134079 d:\projet code c++\how-to-mine\code source\identite.h
+
+1616420528 d:\projet code c++\how-to-mine\code source\site_pool.h
+
+1616421167 source:d:\projet code c++\how-to-mine\code source\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"menu_demarage.h"
+	"identite.h"
+	"prerequis.h"
+	"menu debut.h"
+	"info_miniere.h"
+
+1615718804 d:\projet code c++\how-to-mine\code source\menu_demarage.h
+
+1615892385 d:\projet code c++\how-to-mine\code source\prerequis.h
+
+1615911180 d:\projet code c++\how-to-mine\code source\menu debut.h
+
+1615914010 source:d:\projet code c++\how-to-mine\code source\menu debut.c
+
+1645134079 source:d:\projet code c++\how-to-mine\code source\menu_demarage.c
+
+1645134079 source:d:\projet code c++\how-to-mine\code source\minage.c
+	"identite.h"
+	"choic_pool.h"
+	"minage_coins.h"
+	"pool.h"
+
+1615919711 d:\projet code c++\how-to-mine\code source\choic_pool.h
+
+1615920627 d:\projet code c++\how-to-mine\code source\minage_coins.h
+
+1615981296 d:\projet code c++\how-to-mine\code source\pool.h
+
+1645134079 source:d:\projet code c++\how-to-mine\code source\pool.c
+	"minage_coins.h"
+
+1644150440 source:d:\projet code c++\how-to-mine\code source\prerequis.c
+
+1644150809 source:d:\projet code c++\how-to-mine\code source\site_pool.c
+
+1645134079 source:d:\how-to-mine\code source\info_miniere.c
+	"info_miniere.h"
+	"identite.h"
+	"Site_pool.h"
+
+1615914384 d:\how-to-mine\code source\info_miniere.h
+
+1645134079 d:\how-to-mine\code source\identite.h
+
+1616420528 d:\how-to-mine\code source\site_pool.h
+
+1616421167 source:d:\how-to-mine\code source\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"menu_demarage.h"
+	"identite.h"
+	"prerequis.h"
+	"menu debut.h"
+	"info_miniere.h"
+
+1615718804 d:\how-to-mine\code source\menu_demarage.h
+
+1615892385 d:\how-to-mine\code source\prerequis.h
+
+1615911180 d:\how-to-mine\code source\menu debut.h
+
+1615914010 source:d:\how-to-mine\code source\menu debut.c
+
+1645134079 source:d:\how-to-mine\code source\menu_demarage.c
+
+1645134079 source:d:\how-to-mine\code source\minage.c
+	"identite.h"
+	"choic_pool.h"
+	"minage_coins.h"
+	"pool.h"
+
+1615919711 d:\how-to-mine\code source\choic_pool.h
+
+1615920627 d:\how-to-mine\code source\minage_coins.h
+
+1615981296 d:\how-to-mine\code source\pool.h
+
+1645134079 source:d:\how-to-mine\code source\pool.c
+	"minage_coins.h"
+
+1644150440 source:d:\how-to-mine\code source\prerequis.c
+
+1644150809 source:d:\how-to-mine\code source\site_pool.c
+

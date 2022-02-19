@@ -1,6 +1,0 @@
-Une carte mère (CM)   avec processeur prix 145 
-De la mémoire RAM prix : 21,50
-Un disque dur (HDD) ou SSD  prix : 25,19
-Plusieurs cartes graphiques (GPU) 600 
-Un « boitier » ou support : 40 
-Une ou plusieurs alimentations 160

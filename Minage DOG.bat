@@ -1,0 +1,1 @@
+".\Minage\gminer_2_78_windows64\START.bat"

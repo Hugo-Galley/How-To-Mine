@@ -1,0 +1,54 @@
+2021.03.05:19:42:38.528: main Phoenix Miner 5.5c Windows/msvc - Release build
+2021.03.05:19:42:38.528: main Cmd line: -pool ssl://eth.2miners.com:2020 -pool2 ssl://eth.2miners.com:2020 -wal 0x66319d452Aa07fe56Add8f2817cfE87E625ADbD8.PC_HUGO 
+2021.03.05:19:42:38.563: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.03.05:19:42:38.586: main No OpenCL platforms found
+2021.03.05:19:42:38.586: main Available GPUs for mining:
+2021.03.05:19:42:38.586: main GPU1: GeForce RTX 3060 Ti (pcie 43), CUDA cap. 8.6, 8 GB VRAM, 38 CUs
+2021.03.05:19:42:38.591: main NVML library initialized
+2021.03.05:19:42:38.602: main Nvidia driver version: 461.72
+2021.03.05:19:42:38.739: main Eth: the pool list contains 2 pools (2 from command-line)
+2021.03.05:19:42:38.739: main Eth: primary pool: ssl://eth.2miners.com:2020
+2021.03.05:19:42:38.740: main Starting GPU mining
+2021.03.05:19:42:38.869: wdog Starting watchdog thread
+2021.03.05:19:42:39.111: main Eth: Connecting to ethash pool ssl://eth.2miners.com:2020 (proto: EthProxy)
+2021.03.05:19:42:39.112: main GPU1: 41C 0% 20W
+GPUs power: 20.0 W
+2021.03.05:19:42:39.132: eths Eth: Connected to SSL ethash pool eth.2miners.com:2020 (2001:41d0:700:3441::)
+2021.03.05:19:42:39.146: eths Eth: Unable to establish secure connection to ssl://eth.2miners.com:2020: short read
+2021.03.05:19:42:39.146: eths Eth: Reconnecting in 5 seconds...
+2021.03.05:19:42:39.324: main Listening for CDM remote manager at port 3333 in read-only mode
+2021.03.05:19:42:44.160: unkn Eth: Connecting to ethash pool ssl://eth.2miners.com:2020 (proto: EthProxy)
+2021.03.05:19:42:44.176: eths Eth: Connected to SSL ethash pool eth.2miners.com:2020 (2001:41d0:700:3441::)
+2021.03.05:19:42:44.190: eths Eth: Unable to establish secure connection to ssl://eth.2miners.com:2020: short read
+2021.03.05:19:42:44.190: eths Eth: Reconnecting in 5 seconds...
+2021.03.05:19:42:49.203: unkn Eth: Connecting to ethash pool ssl://eth.2miners.com:2020 (proto: EthProxy)
+2021.03.05:19:42:49.217: eths Eth: Connected to SSL ethash pool eth.2miners.com:2020 (2001:41d0:700:3441::)
+2021.03.05:19:42:49.229: eths Eth: Unable to establish secure connection to ssl://eth.2miners.com:2020: short read
+2021.03.05:19:42:49.229: eths Eth: Giving up after 3 retries, switching to next pool
+2021.03.05:19:42:49.229: eths Eth: Reconnecting in 5 seconds...
+2021.03.05:19:42:54.242: unkn Eth: Connecting to ethash pool ssl://eth.2miners.com:2020 (proto: EthProxy)
+2021.03.05:19:42:54.255: eths Eth: Connected to SSL ethash pool eth.2miners.com:2020 (2001:41d0:700:3441::)
+2021.03.05:19:42:54.268: eths Eth: Unable to establish secure connection to ssl://eth.2miners.com:2020: short read
+2021.03.05:19:42:54.268: eths Eth: Reconnecting in 5 seconds...
+2021.03.05:19:42:59.276: unkn Eth: Connecting to ethash pool ssl://eth.2miners.com:2020 (proto: EthProxy)
+2021.03.05:19:42:59.291: eths Eth: Connected to SSL ethash pool eth.2miners.com:2020 (2001:41d0:700:3441::)
+2021.03.05:19:42:59.304: eths Eth: Unable to establish secure connection to ssl://eth.2miners.com:2020: short read
+2021.03.05:19:42:59.305: eths Eth: Reconnecting in 5 seconds...
+2021.03.05:19:43:04.312: unkn Eth: Connecting to ethash pool ssl://eth.2miners.com:2020 (proto: EthProxy)
+2021.03.05:19:43:04.324: eths Eth: Connected to SSL ethash pool eth.2miners.com:2020 (2001:41d0:700:3441::)
+2021.03.05:19:43:04.337: eths Eth: Unable to establish secure connection to ssl://eth.2miners.com:2020: short read
+2021.03.05:19:43:04.338: eths Eth: Giving up after 3 retries, switching to next pool
+2021.03.05:19:43:04.338: eths Eth: Reconnecting in 5 seconds...
+2021.03.05:19:43:08.996: main GPU1: 41C 0% 18W
+GPUs power: 18.4 W
+2021.03.05:19:43:09.356: unkn Eth: Connecting to ethash pool ssl://eth.2miners.com:2020 (proto: EthProxy)
+2021.03.05:19:43:09.380: eths Eth: Connected to SSL ethash pool eth.2miners.com:2020 (2001:41d0:700:3441::)
+2021.03.05:19:43:09.393: eths Eth: Unable to establish secure connection to ssl://eth.2miners.com:2020: short read
+2021.03.05:19:43:09.393: eths Eth: Reconnecting in 5 seconds...
+2021.03.05:19:43:14.406: unkn Eth: Connecting to ethash pool ssl://eth.2miners.com:2020 (proto: EthProxy)
+2021.03.05:19:43:14.420: eths Eth: Connected to SSL ethash pool eth.2miners.com:2020 (2001:41d0:700:3441::)
+2021.03.05:19:43:14.434: eths Eth: Unable to establish secure connection to ssl://eth.2miners.com:2020: short read
+2021.03.05:19:43:14.434: eths Eth: Reconnecting in 5 seconds...
+2021.03.05:19:43:16.002: unkn Quitting...
+2021.03.05:19:43:16.179: wdog Stopping watchdog thread
+2021.03.05:19:43:16.180: main Exit code: 0

@@ -7,6 +7,4 @@ void menu_demarage(){
     printf("3.DogeCoin\n");
     printf("4.Ravencoin\n");
     printf("5.Zelcash\n");
-    printf("6.Grin\n");
-    printf("7.Beam\n");
 }

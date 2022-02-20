@@ -7,12 +7,12 @@ Avant de Commencer :
 -Puis selectionnné Protoype HTM en en exeptions . 
 
 Deuxiemement : 
--Rendez vous dans systeme>parametres avancée>varaiables d'environement
--Dans variable utilisateurs faites defiller le menu et selectionner  "PATH"  et appyer sur modifier
+-Rendez vous dans systeme>parametres avancée>varaiables d'environement.
+-Dans variable utilisateurs faites defiller le menu et selectionner  "PATH"  et appyer sur modifier.
 -Enfin appuyez sur parcourir et selectionner le dossier "gminer_2_78_windows64" située dans le dossier "Minage" du programme.
--Refermer toutes les pages en appuyant sur OK
+-Refermer toutes les pages en appuyant sur OK .
 
-Cela vous permetra de ne rencontrez aucun problèmes avec le minage de vos cryptosmonnaies
+Cela vous permetra de ne rencontrez aucun problèmes avec le minage de vos cryptosmonnaies.
 
 
 HowtHowToMine est une application destinée au  personne souhaitant se lancer dans l'extraction de crypto-monnaie , 
@@ -31,8 +31,8 @@ Crypto-monnaies prises en charge: Ethereum Clasic ; Éther; DogeCoin; RavenCoin;
 
 -----Rendement--------
 
- -Pour calculer votre rendement il vous faut regarder le nombre de H/s de votre machine 
- -Puis regarder sa puissancen Watts
+ -Pour calculer votre rendement il vous faut regarder le nombre de H/s de votre machine .
+ -Puis regarder sa puissancen Watts.
  (C'est 2 informations seront indiquée lorsque vous lancerez le minage)
  
  -Et enfin rendez-vous sur https://www.stelareum.io/mining/profit.html

@@ -33,5 +33,7 @@ Crypto-monnaies prises en charge: Ethereum Clasic ; Éther; DogeCoin; RavenCoin;
 
  -Pour calculer votre rendement il vous faut regarder le nombre de H/s de votre machine 
  -Puis regarder sa puissancen Watts
- (C'est 2 informations seront indiquée lorsque vous lancerez le minage
+ (C'est 2 informations seront indiquée lorsque vous lancerez le minage)
+ 
  -Et enfin rendez-vous sur https://www.stelareum.io/mining/profit.html
+ 

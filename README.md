@@ -7,9 +7,13 @@ Avant de Commencer :
 -Puis selectionnné Protoype HTM en en exeptions . 
 
 Deuxiemement : 
+
 -Rendez vous dans systeme>parametres avancée>varaiables d'environement.
+
 -Dans variable utilisateurs faites defiller le menu et selectionner  "PATH"  et appyer sur modifier.
+
 -Enfin appuyez sur parcourir et selectionner le dossier "gminer_2_78_windows64" située dans le dossier "Minage" du programme.
+
 -Refermer toutes les pages en appuyant sur OK .
 
 Cela vous permetra de ne rencontrez aucun problèmes avec le minage de vos cryptosmonnaies.

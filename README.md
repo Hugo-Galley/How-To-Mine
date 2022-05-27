@@ -1,4 +1,6 @@
-Avant de Commencer : 
+# HowToMine
+
+## Avant de Commencer :
 
 -Rendez-vous sur votre antivirus (Windows defender ; Avast ; ...) 
 
@@ -6,7 +8,7 @@ Avant de Commencer :
 
 -Puis selectionnné Protoype HTM en en exeptions . 
 
-Deuxiemement : 
+## Deuxiemement : 
 
 -Rendez vous dans systeme>parametres avancée>varaiables d'environement.
 
@@ -30,14 +32,23 @@ et l'application s'occupe du reste.
 Vous pouvez ainsi suivre le déroulement de votre extraction sur le site de la pool que vous aurez préalablement choisie .
 
 
-Crypto-monnaies prises en charge: Ethereum Clasic ; Éther; DogeCoin; RavenCoin; ZelCash.  
+### Crypto-monnaies prises en charge:
+-Ethereum Clasic 
+
+-Éther 
+
+-DogeCoin
+
+-RavenCoin
+
+-ZelCash 
 
 
------Rendement--------
+## Rendement
 
  -Pour calculer votre rendement il vous faut regarder le nombre de H/s de votre machine .
  -Puis regarder sa puissancen Watts.
  (C'est 2 informations seront indiquée lorsque vous lancerez le minage)
  
- -Et enfin rendez-vous sur https://www.stelareum.io/mining/profit.html
+ -Et enfin rendez-vous sur [Stelareum](https://www.stelareum.io/mining/profit.html)
  

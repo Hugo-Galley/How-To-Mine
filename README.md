@@ -35,7 +35,7 @@ Vous pouvez ainsi suivre le déroulement de votre extraction sur le site de la p
 ---
 
 ### Crypto-monnaies prises en charge:
--Ethereum Clasic 
+- Ethereum Clasic 
 
 - Éther 
 
